@@ -1,3 +1,5 @@
+CREATE DATABASE plan_and_go;
+
 CREATE TABLE public."tiket_ka" (
 	id INTEGER PRIMARY KEY,
 	nama_kereta VARCHAR(100) NOT NULL,
@@ -9,7 +11,7 @@ CREATE TABLE public."tiket_ka" (
 	tanggal_berangkat TIMESTAMP,
 	tanggal_tiba TIMESTAMP,
 	harga INTEGER NOT NULL CHECK(harga >= 0)
-)
+);
 
 CREATE TABLE public."tiket_pesawat" (
 	id INTEGER PRIMARY KEY,
@@ -22,7 +24,7 @@ CREATE TABLE public."tiket_pesawat" (
 	tanggal_berangkat TIMESTAMP,
 	tanggal_tiba TIMESTAMP,
 	harga INTEGER NOT NULL CHECK(harga >= 0)
-)
+);
 
 CREATE TABLE public."hotel" (
 	id INTEGER PRIMARY KEY,
@@ -32,14 +34,14 @@ CREATE TABLE public."hotel" (
 	tanggal_check_in TIMESTAMP,
 	tanggal_check_out TIMESTAMP,
 	harga INTEGER NOT NULL CHECK(harga >= 0)
-)
+);
 
 CREATE TABLE public."tiket_wisata" (
 	id INTEGER PRIMARY KEY,
 	nama_wisata VARCHAR(100) NOT NULL,
 	lokasi_wisata VARCHAR(100) NOT NULL,
 	harga INTEGER NOT NULL CHECK(harga >= 0)
-)
+);
 
 CREATE TABLE public."pesananku" (
 	id INTEGER PRIMARY KEY,
@@ -51,7 +53,7 @@ CREATE TABLE public."pesananku" (
 	kota_tujuan VARCHAR(100),
 	tanggal_berangkat TIMESTAMP,
 	tanggal_pulang TIMESTAMP
-)
+);
 
 CREATE TABLE public."pesananku_temp" (
 	id INTEGER PRIMARY KEY,
@@ -63,7 +65,7 @@ CREATE TABLE public."pesananku_temp" (
 	kota_tujuan VARCHAR(100),
 	tanggal_berangkat TIMESTAMP,
 	tanggal_pulang TIMESTAMP
-)
+);
 
 CREATE TABLE pesanan_wisata (
 	id INTEGER PRIMARY KEY,
@@ -71,4 +73,4 @@ CREATE TABLE pesanan_wisata (
 	pesananku INTEGER,
 	CONSTRAINT fk_wisata_pesanan FOREIGN KEY (tiket_wisata) REFERENCES tiket_wisata(id),
 	CONSTRAINT fk_pesanan_wisata FOREIGN KEY (pesananku) REFERENCES pesananku(id)
-)
+);
