@@ -50,6 +50,11 @@ on:
   push:
     branches: [ "master" ]
 
+env:
+  PROJECT_ID: planandgo-akuinginpergi # TODO: update Google Cloud project id
+  SERVICE: testing-placeholder-api # TODO: update Cloud Run service name
+  REGION: asia-east1 # TODO: update Cloud Run service region
+
 jobs:
   deploy-to-gcp:
     # Add 'id-token' with the intended permissions for workload identity federation
@@ -81,8 +86,8 @@ jobs:
         uses: google-github-actions/deploy-cloudrun@v2
         with:
           secrets: DATABASE_URL='${{ secrets.CONNECTION_DB}}'
-          service: '${{ env.SERVICE }}'
-          region: '${{ env.REGION }}'
+          service: ${{ env.SERVICE }}
+          region: ${{ env.REGION }}
           flags: '--allow-unauthenticated --port 3000'
           # NOTE: If required, update to the appropriate source folder
           source: .
