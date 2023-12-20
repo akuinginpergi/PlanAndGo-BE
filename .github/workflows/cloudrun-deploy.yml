@@ -52,8 +52,8 @@ on:
 
 env:
   PROJECT_ID: planandgo-akuinginpergi # TODO: update Google Cloud project id
-  SERVICE: testing-placeholder-api # TODO: update Cloud Run service name
-  REGION: asia-east1 # TODO: update Cloud Run service region
+  SERVICE: plango-backend-api # TODO: update Cloud Run service name
+  REGION: asia-southeast2 # TODO: update Cloud Run service region
 
 jobs:
   deploy-to-gcp:
