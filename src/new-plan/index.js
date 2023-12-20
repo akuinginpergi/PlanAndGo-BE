@@ -6,9 +6,23 @@ let toCSV = require('json-2-csv')
 const prisma = new PrismaClient()
 const router = express.Router();
 
-router.get('/result-new-plan', async (req, res) => {
-  const result = await prisma.$queryRaw`SELECT * FROM pesananku`
-  res.send(result)
+router.get('/result-new-plan',  (req, res) => {
+  // const result = await prisma.$queryRaw`SELECT * FROM pesananku`
+
+  let testObj = {
+    "tiket_berangkat": "1234",
+    "tiket_pulang": "sadasd",
+    "tiket_hotel": "ssss",
+    "tiket_wisata": [
+      "borobudur",'malioboro'
+    ],
+    "tanggal_berangkat": "2023/12/25",
+    "tanggal_pulang": "2023/12/28",
+    "kota_tujuan": "Yogyakarta",
+    "kota_asal": "Jakarta",
+    "total_biaya": 500000
+  }
+  res.send(testObj)
 })
 
 router.post('/store-new-plan', async (req, res) => {
