@@ -1,0 +1,4 @@
+.env.copy
+.github
+.gitignore
+readme.md
