@@ -85,7 +85,7 @@ jobs:
         id: deploy-to-gcp
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          secrets: DATABASE_URL='${{ secrets.CONNECTION_DB}}'
+          secrets: DATABASE_URL=${{ secrets.CONNECTION_DB}}
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
           flags: '--allow-unauthenticated --port 3000'
