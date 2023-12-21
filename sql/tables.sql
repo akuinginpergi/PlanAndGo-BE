@@ -6,7 +6,7 @@ CREATE TABLE public."tiket_transportasi" (
 	nama_transportasi VARCHAR(100) NOT NULL,
 	titik_keberangkatan VARCHAR(100) NOT NULL,
 	kelas VARCHAR(50) NOT NULL,
-	titik_kedatangan VARCHAR(100) NOT NULL,
+	kota_keberangkatan VARCHAR(100) NOT NULL,
 	kota_tiba VARCHAR(100) NOT NULL,
 	jarak VARCHAR(30),
 	harga VARCHAR(50)

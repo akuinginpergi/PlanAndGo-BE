@@ -8,9 +8,9 @@ dotenv.config()
 
 const PORT = process.env.PORT
 
-const newPlan = require('./src/new-plan/index')
-const myPlan = require('./src/my-plan/index')
-const setupPlan = require('./src/setup-plan/index')
+const newPlan = require('./src/new-plan')
+const myPlan = require('./src/my-plan')
+const setupPlan = require('./src/setup-plan')
 app.use(cors());
 
 // Configuring body parser middleware
