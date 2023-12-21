@@ -117,13 +117,13 @@ router.get('/plan-temp/:id', async (req, res) => {
   process.exit(1)
 })
 
-router.post('/save-plan', async (req, res) => {
+router.post('/save-plan/:id', async (req, res) => {
   await prisma.$connect()
 
   const plan = req.body
-  const id = uuid.generate()
+  const id = req.params.id
   await prisma.$executeRaw`INSERT INTO pesananku VALUES (${id}, ${plan.tiket_berangkat}, ${plan.tiket_pulang}, ${plan.hotel},${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
-
+  await prisma.$executeRaw`DELETE FROM pesananku_temp WHERE id = ${id}`
   res.sendStatus(200)
   await prisma.$disconnect()
   process.exit(1)

@@ -8,29 +8,52 @@ const prisma = new PrismaClient()
 const router = express.Router();
 
 router.get('/list-my-plan', async (req, res) => {
-  const result = await prisma.$queryRaw`SELECT * FROM pesananku`
-  res.send(result)
-})
-
-router.get('/list-my-plan/:id', async (req, res, next) => {
-  try {
-    const id = req.params.id;
-    const datas = await prisma.$queryRaw`SELECT * FROM pesananku WHERE id = ${id}`
-    if (!datas) {
-      const err = new Error('data ga ada');
-      return next(err)
-    }
-    res.send(datas)
-  } catch (err) {
-    next(err)
+  await prisma.$connect()
+  const data = await prisma.$queryRaw`SELECT * FROM pesananku`
+  if (data != []) {
+    res.status(200).json({
+      error: false,
+      message: "Success!",
+      data: data
+    })
+  } else {
+    res.status(404).json({
+      error: true,
+      message: "Data tidak ada"
+    })
   }
+  await prisma.$disconnect()
+  process.exit(1)
 })
 
-router.delete('/list-my-plan/:id', async (req, res) => {
-    const id = req.params.id
-    await prisma.$executeRaw`DELETE FROM users WHERE kode_pengguna = ${id};`
+router.get('/list-my-plan/:id', async (req, res) => {
+  await prisma.$connect()
+  const id = req.params.id;
+  const data = await prisma.$queryRaw`SELECT * FROM pesananku WHERE id = ${id}`
+  if (data != []) {
+    res.status(200).json({
+      error: false,
+      message: "Success!",
+      data: data
+    })
+  } else {
+    res.status(404).json({
+      error: true,
+      message: "Data tidak ada"
+    })
+  }
+  await prisma.$disconnect()
+  process.exit(1)
+})
 
-    res.status(201).send("Data berhasil dihapus!")
+router.delete('/list-my-plan/:id/cancel-plan', async (req, res) => {
+  await prisma.$connect()
+  const id = req.params.id
+  await prisma.$executeRaw`DELETE FROM pesananku WHERE id = ${id}`
+
+  res.sendStatus(200)
+  await prisma.$disconnect()
+  process.exit(1)
 })
 
 module.exports = router
