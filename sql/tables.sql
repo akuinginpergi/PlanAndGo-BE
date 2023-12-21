@@ -6,7 +6,7 @@ CREATE TABLE public."tiket_transportasi" (
 	nama_transportasi VARCHAR(100) NOT NULL,
 	titik_keberangkatan VARCHAR(100) NOT NULL,
 	kelas VARCHAR(50) NOT NULL,
-	titik_kedatangan VARCHAR(100) NOT NULL,
+	kota_keberangkatan VARCHAR(100) NOT NULL,
 	kota_tiba VARCHAR(100) NOT NULL,
 	jarak VARCHAR(30),
 	harga VARCHAR(50)
@@ -39,7 +39,7 @@ CREATE TABLE public."tiket_wisata" (
 
 	
 CREATE TABLE public."pesananku" (
-	id VARCHAR(10) PRIMARY KEY,
+	id VARCHAR(255) PRIMARY KEY,
 	tiket_keberangkatan VARCHAR(5) ,
 	tiket_kedatangan VARCHAR(5),
 	hotel VARCHAR(10),
@@ -52,7 +52,7 @@ CREATE TABLE public."pesananku" (
 );
 
 CREATE TABLE public."pesananku_temp" (
-	id VARCHAR(10) PRIMARY KEY,
+	id VARCHAR(255) PRIMARY KEY,
 	tiket_keberangkatan VARCHAR(5) ,
 	tiket_kedatangan VARCHAR(5),
 	hotel VARCHAR(10),
@@ -65,8 +65,8 @@ CREATE TABLE public."pesananku_temp" (
 );
 
 CREATE TABLE public."pesanan_wisata" (
-	id VARCHAR(10) PRIMARY KEY,
-	tiket_wisata VARCHAR(10),
+	id VARCHAR(255) PRIMARY KEY,
+	tiket_wisata VARCHAR(255),
 	pesananku VARCHAR(10),
 	CONSTRAINT fk_wisata_pesanan FOREIGN KEY (tiket_wisata) REFERENCES tiket_wisata(id),
 	CONSTRAINT fk_pesanan_wisata FOREIGN KEY (pesananku) REFERENCES pesananku(id)
