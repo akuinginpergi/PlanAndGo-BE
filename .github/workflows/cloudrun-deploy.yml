@@ -85,7 +85,7 @@ jobs:
         id: deploy-to-gcp
         uses: google-github-actions/deploy-cloudrun@v2
         with:
-          env_vars: DATABASE_URL=${{ secrets.CONNECTION_DB}}
+          env_vars: ${{ secrets.CONNECTION_DB}}
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
           flags: '--allow-unauthenticated --port 3000 --vpc-connector=penghubung-database-arisu'
