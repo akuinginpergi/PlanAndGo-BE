@@ -1,7 +1,9 @@
 const express = require('express')
 const { PrismaClient } = require('@prisma/client')
 const  uuid = require('short-uuid')
-const prisma = new PrismaClient()
+const prisma = new PrismaClient({
+  datasources: { db: { url: process.env.DATABASE_URL } }
+})
 const router = express.Router()
 
 router.get('/choose-destination', async (req, res) => {

@@ -3,7 +3,9 @@ const  uuid = require('short-uuid')
 const { PrismaClient} = require('@prisma/client')
 let toCSV = require('json-2-csv')
 
-const prisma = new PrismaClient()
+const prisma = new PrismaClient({
+  datasources: { db: { url: process.env.DATABASE_URL } }
+})
 const router = express.Router();
 
 router.get('/result-new-plan',  (req, res) => {
