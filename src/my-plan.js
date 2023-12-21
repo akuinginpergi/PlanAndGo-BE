@@ -8,7 +8,6 @@ const prisma = new PrismaClient()
 const router = express.Router();
 
 router.get('/list-my-plan', async (req, res) => {
-  await prisma.$connect()
   const data = await prisma.$queryRaw`SELECT * FROM pesananku`
   if (data != []) {
     res.status(200).json({
@@ -22,12 +21,9 @@ router.get('/list-my-plan', async (req, res) => {
       message: "Data tidak ada"
     })
   }
-  await prisma.$disconnect()
-  process.exit(1)
 })
 
 router.get('/list-my-plan/:id', async (req, res) => {
-  await prisma.$connect()
   const id = req.params.id;
   const data = await prisma.$queryRaw`SELECT * FROM pesananku WHERE id = ${id}`
   if (data != []) {
@@ -42,18 +38,13 @@ router.get('/list-my-plan/:id', async (req, res) => {
       message: "Data tidak ada"
     })
   }
-  await prisma.$disconnect()
-  process.exit(1)
 })
 
 router.delete('/list-my-plan/:id/cancel-plan', async (req, res) => {
-  await prisma.$connect()
   const id = req.params.id
   await prisma.$executeRaw`DELETE FROM pesananku WHERE id = ${id}`
 
   res.sendStatus(200)
-  await prisma.$disconnect()
-  process.exit(1)
 })
 
 module.exports = router
