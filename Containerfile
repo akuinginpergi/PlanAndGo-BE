@@ -6,6 +6,8 @@ COPY . .
 
 RUN npm i
 
+RUN npx prisma generate
+
 EXPOSE 3000
 
 CMD [ "npm run start" ]
