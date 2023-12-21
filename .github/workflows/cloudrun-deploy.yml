@@ -88,7 +88,7 @@ jobs:
           env_vars: DATABASE_URL=${{ secrets.CONNECTION_DB}}
           service: ${{ env.SERVICE }}
           region: ${{ env.REGION }}
-          flags: '--allow-unauthenticated --port 3000'
+          flags: '--allow-unauthenticated --port 3000 --vpc-connector=penghubung-database-arisu'
           # NOTE: If required, update to the appropriate source folder
           source: .
 
