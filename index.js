@@ -10,6 +10,7 @@ const PORT = process.env.PORT
 
 const newPlan = require('./src/new-plan/index')
 const myPlan = require('./src/my-plan/index')
+const setupPlan = require('./src/setup-plan/index')
 app.use(cors());
 
 // Configuring body parser middleware
@@ -17,6 +18,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use('/', newPlan)
 app.use('/', myPlan)
+app.use('/', setupPlan)
+
+
 
 app.get('/', (req, res) => {
   res.send('<img src="https://media1.tenor.com/m/fSwZVENOqB4AAAAC/arisu-tachibana-idolmaster-cinderella-girls-u149.gif"/>')
