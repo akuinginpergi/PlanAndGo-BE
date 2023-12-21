@@ -22,7 +22,8 @@ router.get('/result-new-plan',  (req, res) => {
     "kota_asal": "Jakarta",
     "total_biaya": 500000
   }
-  res.send(testObj)
+  // res.send(testObj)
+  res.status(200).json({error: "false", message: "Success!", data: testObj})
 })
 
 router.post('/store-new-plan', async (req, res) => {
