@@ -85,7 +85,6 @@ router.get('/choose-return', async (req, res) => {
   await prisma.$disconnect()
   process.exit(1)
 })
-module.exports = router
 
 router.post('/save-temp', async (req, res) => {
   await prisma.$connect()
@@ -94,4 +93,40 @@ router.post('/save-temp', async (req, res) => {
   await prisma.$executeRaw`INSERT INTO pesananku_temp VALUES (${id}, ${plan.tiket_berangkat}, ${plan.tiket_pulang}, ${plan.hotel},${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
 
   res.sendStatus(200)
+  await prisma.$disconnect()
+  process.exit(1)
 })
+
+router.get('/plan-temp/:id', async (req, res) => {
+  await prisma.$connect()
+  const id = req.params.id;
+  const data = await prisma.$queryRaw`SELECT * FROM pesananku_temp WHERE id = ${id}`
+  if (data != []) {
+    res.status(200).json({
+      error: false,
+      message: "Success!",
+      data: data
+    })
+  } else {
+    res.status(404).json({
+      error: true,
+      message: "Data tidak ada"
+    })
+  }
+  await prisma.$disconnect()
+  process.exit(1)
+})
+
+router.post('/save-plan', async (req, res) => {
+  await prisma.$connect()
+
+  const plan = req.body
+  const id = uuid.generate()
+  await prisma.$executeRaw`INSERT INTO pesananku VALUES (${id}, ${plan.tiket_berangkat}, ${plan.tiket_pulang}, ${plan.hotel},${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
+
+  res.sendStatus(200)
+  await prisma.$disconnect()
+  process.exit(1)
+})
+
+module.exports = router
