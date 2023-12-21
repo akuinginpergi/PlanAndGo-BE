@@ -1,0 +1,1001 @@
+id,transportation_mode,provider,starting_point,transportation_class,departure_location,arrival_location,distance,price
+1,Plane,Wings Air,Bandar Udara Frans Seda (Bandar Udara Wai Oti) (Bandar Udara Maumere),Suite,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,2564851.727988161
+2,Train,PT KAI,Parung Panjang,Suite,Bogor,Yogyakarta,422.78231889794927,507338.78267753916
+3,Plane,Sriwijaya Air,Bandar Udara Internasional Kualanamu,Suite,Sumatera Selatan,Yogyakarta,877.9380166727185,1975360.5375136165
+4,Plane,Citilink,Bandar Udara Blangkejeren (Bandar Udara Gayo Lues) (Bandar Udara Senubung),Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+5,Train,PT KAI,Karangantu,Economic,Cilegon,Yogyakarta,523.5899966739782,418871.9973391826
+6,Train,PT KAI,Bagor,Suite,Madiun,Yogyakarta,149.62256665123383,179547.0799814806
+7,Plane,Wings Air,Bandar Udara Fatmawati Soekarno,Business,Jambi,Yogyakarta,1080.9267465522385,2107807.155776865
+8,Bus,Sinar Jaya,nearest bus terminal,Business,Indramayu,Yogyakarta,848.6203775741213,551603.2454231789
+9,Plane,PT Trigana Air Service,Bandar Udara H. Aroeppala,Suite,Sulawesi Tengah,Yogyakarta,1350.2021561312324,3037954.851295273
+10,Plane,NAM Air,Unknown Airport,Suite,Gorontalo,Yogyakarta,1650.7274560911121,3714136.7762050023
+11,Plane,PT Trigana Air Service,Bandar Udara Iskandar,Business,Kalimantan Utara,Yogyakarta,1378.4708290615852,2688018.116670091
+12,Plane,PT Trigana Air Service,Bandar Udara Haji Muhammad Sidik,Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+13,Train,PT KAI,Palmerah,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+14,Plane,Sriwijaya Air,Bandar Udara Ngloram (Bandar Udara Blora),Business,Jawa Tengah,Yogyakarta,84.66775283966177,165102.11803734046
+15,Bus,Haryanto,nearest bus terminal,Business,Grobogan,Yogyakarta,113.49164077468595,73769.56650354587
+16,Train,PT KAI,Randuangung,Suite,Lumajang,Yogyakarta,315.4223117768743,378506.7741322492
+17,Bus,Sinar Jaya,nearest bus terminal,Business,Lumajang,Yogyakarta,315.4223117768743,205024.5026549683
+18,Bus,Haryanto,nearest bus terminal,Economic,Balikpapan,Yogyakarta,1036.1041341055677,518052.06705278385
+19,Bus,Mayasari,nearest bus terminal,Business,Bengkulu,Yogyakarta,997.5854283886057,648430.5284525937
+20,Bus,Budiman,nearest bus terminal,Suite,Cilegon,Yogyakarta,523.5899966739782,392692.4975054837
+21,Train,PT KAI,Batuceper,Suite,Serang,Yogyakarta,526.216155379768,631459.3864557217
+22,Train,PT KAI,Benowo,Business,Mojokerto,Yogyakarta,241.18707882277067,250834.5619756815
+23,Bus,Haryanto,nearest bus terminal,Suite,Jambi,Yogyakarta,1080.9267465522385,810695.0599141789
+24,Bus,Dewi Sri,nearest bus terminal,Economic,Batam,Yogyakarta,1225.5223093146765,612761.1546573383
+25,Train,PT KAI,Semarang Tawang,Economic,Semarang,Yogyakarta,109.37687454139586,87501.49963311669
+26,Train,PT KAI,Ciganea,Business,Purwakarta,Yogyakarta,358.8393633433293,373192.9378770625
+27,Train,PT KAI,Kampung Bandan Atas,Business,Jakarta Utara,Yogyakarta,433.7601399791081,451110.5455782724
+28,Plane,Lion Air,Bandar Udara Depati Parbo,Business,Sumatera Barat,Yogyakarta,1356.2848088436576,2644755.3772451323
+29,Plane,Lion Air,Bandar Udara Abdulrachman Saleh,Suite,Jawa Barat,Yogyakarta,324.18707186347507,729420.9116928189
+30,Plane,Batik Air,Bandar Udara Bengkalis (Bandar Udara Meranti) (Bandar Udara Sei Selari) (Bandar Udara Sei Pakning),Economic,Riau,Yogyakarta,1355.379546339091,2033069.3195086364
+31,Bus,Hiba,nearest bus terminal,Economic,Madiun,Yogyakarta,149.62256665123383,74811.28332561691
+32,Plane,Citilink,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+33,Bus,Lorena,nearest bus terminal,Economic,Gresik,Yogyakarta,350.08148965766696,175040.74482883347
+34,Bus,Hiba,nearest bus terminal,Business,Kediri,Yogyakarta,181.49519008042117,117971.87355227376
+35,Plane,Garuda Indonesia,Bandar Udara H. Asan,Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+36,Bus,Dewi Sri,nearest bus terminal,Business,Boyolali,Yogyakarta,75.14059220340893,48841.384932215806
+37,Plane,PT Trigana Air Service,Bandar Udara El Tari,Economic,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1127964.6291191946
+38,Plane,Citilink,Bandar Udara Depati Amir,Business,Jambi,Yogyakarta,1080.9267465522385,2107807.155776865
+39,Train,PT KAI,Cilegeh,Suite,Indramayu,Yogyakarta,848.6203775741213,1018344.4530889457
+40,Plane,Sriwijaya Air,Bandar Udara Adisucipto,Suite,Jawa Barat,Yogyakarta,324.18707186347507,729420.9116928189
+41,Train,PT KAI,Mojokerto,Economic,Mojokerto,Yogyakarta,241.18707882277067,192949.66305821654
+42,Plane,Batik Air,Bandar Udara Amahai,Suite,Maluku,Yogyakarta,1987.6613976835763,4472238.144788047
+43,Plane,Citilink,Bandar Udara Depati Parbo,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+44,Train,PT KAI,Slawi,Economic,Tegal,Yogyakarta,170.24107027498275,136192.8562199862
+45,Train,PT KAI,Cipunegara,Business,Subang,Yogyakarta,1573.8721979387558,1636827.0858563061
+46,Plane,NAM Air,Bandar Udara Frans Sales Lega,Business,Bali,Yogyakarta,521.9825957538203,1017866.0617199496
+47,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Business,Sumatera Barat,Yogyakarta,1356.2848088436576,881585.1257483775
+48,Train,PT KAI,Cerme,Economic,Gresik,Yogyakarta,350.08148965766696,280065.1917261336
+49,Bus,Hiba,nearest bus terminal,Suite,Solo,Yogyakarta,68.04500135455822,51033.751015918664
+50,Bus,Budiman,nearest bus terminal,Business,Bogor,Yogyakarta,422.78231889794927,274808.50728366704
+51,Bus,Budiman,nearest bus terminal,Business,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,488784.67261831765
+52,Train,PT KAI,Cimahi,Economic,Cimahi,Yogyakarta,334.9202108675686,267936.1686940549
+53,Bus,Haryanto,nearest bus terminal,Business,Gresik,Yogyakarta,350.08148965766696,227552.9682774835
+54,Train,PT KAI,Sukatani,Economic,Purwakarta,Yogyakarta,358.8393633433293,287071.49067466345
+55,Bus,Mayasari,nearest bus terminal,Suite,Tegal,Yogyakarta,170.24107027498275,127680.80270623707
+56,Plane,NAM Air,Bandar Udara Djalaluddin,Economic,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2025303.2341968487
+57,Plane,Wings Air,Bandar Udara Amahai,Economic,Maluku,Yogyakarta,1987.6613976835763,2981492.0965253646
+58,Train,PT KAI,Gambir,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+59,Plane,Lion Air,Bandar Udara Internasional Kualanamu,Economic,Sumatera Selatan,Yogyakarta,877.9380166727185,1316907.0250090777
+60,Plane,Batik Air,Bandar Udara H. Aroeppala,Suite,Sulawesi Utara,Yogyakarta,1797.54188318467,4044469.237165508
+61,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Tuban,Yogyakarta,222.337926911915,166753.44518393624
+62,Train,PT KAI,Pondok Cina,Business,Depok,Yogyakarta,428.9755164057098,446134.5370619382
+63,Bus,Hiba,nearest bus terminal,Suite,Balikpapan,Yogyakarta,1036.1041341055677,777078.1005791757
+64,Bus,Hiba,nearest bus terminal,Suite,Jambi,Yogyakarta,1080.9267465522385,810695.0599141789
+65,Bus,Lorena,nearest bus terminal,Business,Kalimantan Selatan,Yogyakarta,786.7319481865729,511375.7663212725
+66,Bus,Dewi Sri,nearest bus terminal,Suite,Gresik,Yogyakarta,350.08148965766696,262561.1172432502
+67,Bus,Dewi Sri,nearest bus terminal,Economic,Tuban,Yogyakarta,222.337926911915,111168.96345595749
+68,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Jombang,Yogyakarta,211.7850913076902,105892.54565384511
+69,Bus,Lorena,nearest bus terminal,Business,Banjar,Yogyakarta,732.5899586046614,476183.4730930299
+70,Train,PT KAI,Solo Jebres,Business,Surakarta,Yogyakarta,68.04500135455822,70766.80140874056
+71,Plane,Batik Air,Bandar Udara H.A.S. Hanandjoeddin d.h. Bandar Udara Buluh Tumbang,Business,Sumatera Selatan,Yogyakarta,877.9380166727185,1711979.132511801
+72,Bus,Budiman,nearest bus terminal,Economic,Boyolali,Yogyakarta,75.14059220340893,37570.296101704465
+73,Bus,Lorena,nearest bus terminal,Suite,Sumatera Selatan,Yogyakarta,877.9380166727185,658453.5125045389
+74,Bus,Hiba,nearest bus terminal,Economic,Kalimantan Selatan,Yogyakarta,786.7319481865729,393365.9740932865
+75,Bus,Mayasari,nearest bus terminal,Business,Blitar,Yogyakarta,198.62929149028835,129109.03946868744
+76,Bus,Rosalia Indah,nearest bus terminal,Suite,Jayapura,Yogyakarta,3414.685867411479,2561014.4005586095
+77,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Grobogan,Yogyakarta,113.49164077468595,85118.73058101446
+78,Plane,PT Trigana Air Service,Unknown Airport,Economic,Banten,Yogyakarta,496.92179636711603,745382.6945506741
+79,Plane,Batik Air,Bandar Udara Buli,Business,Maluku Utara,Yogyakarta,2173.4018230230486,4238133.554894945
+80,Bus,Haryanto,nearest bus terminal,Economic,Sulawesi Tengah,Yogyakarta,1350.2021561312324,675101.0780656162
+81,Plane,NAM Air,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+82,Train,PT KAI,Wonogiri,Economic,Wonogiri,Yogyakarta,65.1100266350096,52088.02130800768
+83,Bus,Rosalia Indah,nearest bus terminal,Economic,Banjar,Yogyakarta,732.5899586046614,366294.9793023307
+84,Train,PT KAI,Pakisaji,Business,Malang,Yogyakarta,249.9132515073408,259909.78156763443
+85,Train,PT KAI,Lubuk Buaya,Business,Padang,Yogyakarta,1356.2769455231717,1410528.0233440986
+86,Bus,Lorena,nearest bus terminal,Suite,Sukoharjo,Yogyakarta,64.18079446450817,48135.59584838113
+87,Plane,Sriwijaya Air,Bandar Udara Danau Toba,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,2034427.2132654865
+88,Train,PT KAI,Sembung,Economic,Jombang,Yogyakarta,211.7850913076902,169428.07304615216
+89,Bus,Rosalia Indah,nearest bus terminal,Economic,Sumatera Selatan,Yogyakarta,877.9380166727185,438969.0083363592
+90,Train,PT KAI,Krass,Suite,Kediri,Yogyakarta,181.49519008042117,217794.2280965054
+91,Train,PT KAI,Kemiri,Suite,Karanganyar,Yogyakarta,87.02743185942376,104432.91823130852
+92,Train,PT KAI,Cerme,Business,Gresik,Yogyakarta,350.08148965766696,364084.74924397364
+93,Train,PT KAI,Universitas Indonesia,Business,Depok,Yogyakarta,428.9755164057098,446134.5370619382
+94,Plane,PT Trigana Air Service,Bandar Udara Binuang,Business,Kalimantan Selatan,Yogyakarta,786.7319481865729,1534127.2989638173
+95,Train,PT KAI,Randuangung,Economic,Lumajang,Yogyakarta,315.4223117768743,252337.84942149947
+96,Train,PT KAI,Semarang Tawang,Economic,Semarang,Yogyakarta,109.37687454139586,87501.49963311669
+97,Train,PT KAI,Wonokerto,Business,Pasuruan,Yogyakarta,282.6093643740866,293913.7389490501
+98,Plane,Lion Air,Bandar Udara H.A.S. Hanandjoeddin d.h. Bandar Udara Buluh Tumbang,Economic,Bengkulu,Yogyakarta,997.5854283886057,1496378.1425829085
+99,Train,PT KAI,Jerakah,Business,Semarang,Yogyakarta,109.37687454139586,113751.9495230517
+100,Train,PT KAI,Duduk,Suite,Gresik,Yogyakarta,350.08148965766696,420097.78758920036
+101,Plane,Lion Air,Unknown Airport,Business,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1429282.137840406
+102,Plane,PT Trigana Air Service,Bandar Udara Depati Parbo,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+103,Plane,Wings Air,Unknown Airport,Economic,Gorontalo,Yogyakarta,1650.7274560911121,2476091.184136668
+104,Train,PT KAI,Kalimas,Business,Surabaya,Yogyakarta,273.8180533906966,284770.77552632446
+105,Plane,Sriwijaya Air,Bandar Udara Ahmad Yani,Economic,Jawa Barat,Yogyakarta,324.18707186347507,486280.6077952126
+106,Plane,Wings Air,Bandar Udara Komodo,Suite,Sulawesi Tenggara,Yogyakarta,1349.952163038336,3037392.3668362563
+107,Train,PT KAI,Barat,Suite,Magetan,Yogyakarta,112.68790797419841,135225.4895690381
+108,Plane,PT Trigana Air Service,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+109,Train,PT KAI,Sumberejo,Economic,Bojonegoro,Yogyakarta,179.96708290456277,143973.66632365022
+110,Bus,Nusantara,nearest bus terminal,Economic,Lebak,Yogyakarta,484.56524675423674,242282.62337711838
+111,Plane,Citilink,Bandar Udara Iskandar,Economic,Kalimantan Tengah,Yogyakarta,786.2951946731149,1179442.7920096724
+112,Bus,Hiba,nearest bus terminal,Economic,Sorong,Yogyakarta,2446.6384764497907,1223319.2382248954
+113,Train,PT KAI,Pakisaji,Suite,Malang,Yogyakarta,249.9132515073408,299895.90180880897
+114,Plane,Garuda Indonesia,Bandar Udara Juwata,Suite,Kalimantan Utara,Yogyakarta,1378.4708290615852,3101559.3653885666
+115,Train,PT KAI,Cerme,Business,Gresik,Yogyakarta,350.08148965766696,364084.74924397364
+116,Bus,Rosalia Indah,nearest bus terminal,Business,Kalimantan Selatan,Yogyakarta,786.7319481865729,511375.7663212725
+117,Train,PT KAI,Garum,Economic,Blitar,Yogyakarta,198.62929149028835,158903.43319223067
+118,Plane,Citilink,Bandar Udara Bandanaira (Bandar Udara Banda),Suite,Maluku,Yogyakarta,1987.6613976835763,4472238.144788047
+119,Plane,Lion Air,Bandar Udara Dabo,Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+120,Bus,Lorena,nearest bus terminal,Suite,Pasuruan,Yogyakarta,282.6093643740866,211957.02328056496
+121,Train,PT KAI,Sumberejo,Business,Bojonegoro,Yogyakarta,179.96708290456277,187165.76622074528
+122,Plane,Wings Air,Bandar Udara Iskandar,Business,Kalimantan Utara,Yogyakarta,1378.4708290615852,2688018.116670091
+123,Bus,Dewi Sri,nearest bus terminal,Suite,Cirebon,Yogyakarta,243.56079565615678,182670.5967421176
+124,Plane,Wings Air,Bandar Udara Iskandar,Suite,Kalimantan Timur,Yogyakarta,1168.2805011804724,2628631.1276560626
+125,Plane,NAM Air,Bandar Udara Ahmad Yani,Suite,DKI Jakarta,Yogyakarta,438.967847019126,987677.6557930335
+126,Train,PT KAI,Probolinggo,Business,Probolinggo,Yogyakarta,324.1913946350937,337159.0504204974
+127,Plane,NAM Air,Bandar Udara Dabo,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+128,Train,PT KAI,Maja,Suite,Lebak,Yogyakarta,484.56524675423674,581478.296105084
+129,Plane,Garuda Indonesia,Bandar Udara Iskandar,Economic,Kalimantan Tengah,Yogyakarta,786.2951946731149,1179442.7920096724
+130,Bus,Sinar Jaya,nearest bus terminal,Economic,Banjarmasin,Yogyakarta,696.0241488204558,348012.0744102279
+131,Plane,Wings Air,Bandar Udara Adisucipto,Business,Jawa Tengah,Yogyakarta,84.66775283966177,165102.11803734046
+132,Train,PT KAI,Tarahan,Suite,Bandar Lampung,Yogyakarta,629.7894061501536,755747.2873801843
+133,Train,PT KAI,Gembong,Suite,Lamongan,Yogyakarta,236.16326225674064,283395.91470808873
+134,Bus,Rosalia Indah,nearest bus terminal,Economic,Sukoharjo,Yogyakarta,64.18079446450817,32090.397232254083
+135,Plane,PT Trigana Air Service,Bandar Udara Fatmawati Soekarno,Business,Sumatera Selatan,Yogyakarta,877.9380166727185,1711979.132511801
+136,Plane,Wings Air,Bandar Udara Fatmawati Soekarno,Economic,Bengkulu,Yogyakarta,997.5854283886057,1496378.1425829085
+137,Bus,Rosalia Indah,nearest bus terminal,Economic,Boyolali,Yogyakarta,75.14059220340893,37570.296101704465
+138,Plane,Lion Air,Bandar Udara Bobong,Economic,Maluku Utara,Yogyakarta,2173.4018230230486,3260102.734534573
+139,Plane,Wings Air,Bandar Udara El Tari,Economic,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1127964.6291191946
+140,Train,PT KAI,Ngunut,Suite,Tulungagung,Yogyakarta,169.2547648272099,203105.7177926519
+141,Plane,Lion Air,Bandar Udara Internasional Hang Nadim,Suite,Lampung,Yogyakarta,684.1841734461109,1539414.3902537497
+142,Plane,Wings Air,Bandar Udara Bintan Baru,Economic,Sumatera Utara,Yogyakarta,1659.117501711117,2488676.2525666757
+143,Bus,Haryanto,nearest bus terminal,Business,Sulawesi Barat,Yogyakarta,1169.3609574565219,760084.6223467393
+144,Bus,Lorena,nearest bus terminal,Business,Sulawesi Tenggara,Yogyakarta,1349.952163038336,877468.9059749184
+145,Train,PT KAI,Cimahi,Business,Cimahi,Yogyakarta,334.9202108675686,348317.01930227136
+146,Plane,PT Trigana Air Service,Bandar Udara Internasional Hang Nadim,Business,Lampung,Yogyakarta,684.1841734461109,1334159.1382199163
+147,Plane,Batik Air,Bandar Udara Ahmad Yani,Economic,Jawa Barat,Yogyakarta,324.18707186347507,486280.6077952126
+148,Plane,Batik Air,Bandar Udara H. Asan,Suite,Kalimantan Utara,Yogyakarta,1378.4708290615852,3101559.3653885666
+149,Train,PT KAI,Glenmore,Business,Banyuwangi,Yogyakarta,417.7821639876958,434493.45054720365
+150,Train,PT KAI,Lubuk Buaya,Economic,Padang,Yogyakarta,1356.2769455231717,1085021.5564185374
+151,Bus,Hiba,nearest bus terminal,Business,Pontianak,Yogyakarta,886.9777055158274,576535.5085852878
+152,Train,PT KAI,Cipeuyeum,Business,Cianjur,Yogyakarta,378.0621762662139,393184.6633168624
+153,Plane,Citilink,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Economic,Bengkulu,Yogyakarta,997.5854283886057,1496378.1425829085
+154,Plane,NAM Air,Bandar Udara El Tari,Suite,Bali,Yogyakarta,521.9825957538203,1174460.8404460957
+155,Train,PT KAI,Geneng,Suite,Ngawi,Yogyakarta,127.1348515271285,152561.8218325542
+156,Plane,Batik Air,Bandar Udara Iskandar,Economic,Kalimantan Barat,Yogyakarta,871.3478269442726,1307021.740416409
+157,Plane,Sriwijaya Air,Bandar Udara Depati Amir,Suite,Jambi,Yogyakarta,1080.9267465522385,2432085.1797425365
+158,Train,PT KAI,Pemalang,Economic,Pekalongan,Yogyakarta,132.35837071355405,105886.69657084324
+159,Train,PT KAI,Geneng,Economic,Ngawi,Yogyakarta,127.1348515271285,101707.8812217028
+160,Plane,Batik Air,Bandar Udara Aek Godang,Economic,Sumatera Utara,Yogyakarta,1659.117501711117,2488676.2525666757
+161,Plane,Wings Air,Bandar Udara D. C. Saundale d.h. Bandar Udara Lekunik,Suite,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1691946.9436787919
+162,Plane,Lion Air,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Economic,Jambi,Yogyakarta,1080.9267465522385,1621390.1198283576
+163,Bus,Dewi Sri,nearest bus terminal,Business,Sumatera Utara,Yogyakarta,1659.117501711117,1078426.3761122262
+164,Bus,Mayasari,nearest bus terminal,Suite,Pekalongan,Yogyakarta,132.35837071355405,99268.77803516554
+165,Bus,Mayasari,nearest bus terminal,Suite,Bandung Barat,Yogyakarta,347.3558014760002,260516.85110700014
+166,Train,PT KAI,Ambarawa,Suite,Demak,Yogyakarta,120.35665720273047,144427.98864327656
+167,Bus,Mayasari,nearest bus terminal,Suite,Tulungagung,Yogyakarta,169.2547648272099,126941.07362040743
+168,Train,PT KAI,Kramat,Business,Jakarta Pusat,Yogyakarta,437.0517885095066,454533.86004988686
+169,Train,PT KAI,Cibeber,Suite,Cianjur,Yogyakarta,378.0621762662139,453674.6115194566
+170,Bus,Budiman,nearest bus terminal,Suite,Kepulauan Riau,Yogyakarta,1077.3258575676762,807994.393175757
+171,Bus,Haryanto,nearest bus terminal,Economic,Medan,Yogyakarta,1822.7420375533572,911371.0187766786
+172,Bus,Haryanto,nearest bus terminal,Suite,Mojokerto,Yogyakarta,241.18707882277067,180890.30911707802
+173,Plane,NAM Air,Bandar Udara Adisucipto,Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+174,Bus,Hiba,nearest bus terminal,Business,Palu,Yogyakarta,1312.687130498807,853246.6348242245
+175,Plane,Sriwijaya Air,Bandar Udara Lunyuk,Business,Sulawesi Tenggara,Yogyakarta,1349.952163038336,2632406.7179247555
+176,Train,PT KAI,Cibadak,Business,Sukabumi,Yogyakarta,413.1162545173275,429640.9046980206
+177,Plane,Sriwijaya Air,Bandar Udara Abdulrachman Saleh,Suite,DKI Jakarta,Yogyakarta,438.967847019126,987677.6557930335
+178,Bus,Mayasari,nearest bus terminal,Suite,Tulungagung,Yogyakarta,169.2547648272099,126941.07362040743
+179,Train,PT KAI,Kertosono,Business,Nganjuk,Yogyakarta,178.75205838611703,185902.1407215617
+180,Train,PT KAI,Singojuruh,Business,Banyuwangi,Yogyakarta,417.7821639876958,434493.45054720365
+181,Train,PT KAI,Pondok Cina,Suite,Depok,Yogyakarta,428.9755164057098,514770.61968685174
+182,Plane,Garuda Indonesia,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+183,Bus,Nusantara,nearest bus terminal,Economic,Cimahi,Yogyakarta,334.9202108675686,167460.10543378428
+184,Train,PT KAI,Barat,Business,Magetan,Yogyakarta,112.68790797419841,117195.42429316635
+185,Train,PT KAI,Grogol,Business,Jakarta Barat,Yogyakarta,447.8533791485487,465767.51431449066
+186,Train,PT KAI,Wilangan,Economic,Nganjuk,Yogyakarta,178.75205838611703,143001.64670889362
+187,Plane,Wings Air,Bandar Udara Bolaang (Bandar Udara Loloda Mokoagow),Economic,Sulawesi Utara,Yogyakarta,1797.54188318467,2696312.8247770052
+188,Plane,Citilink,Unknown Airport,Suite,Gorontalo,Yogyakarta,1650.7274560911121,3714136.7762050023
+189,Bus,Haryanto,nearest bus terminal,Suite,Jawa Tengah,Yogyakarta,84.66775283966177,63500.814629746324
+190,Plane,Garuda Indonesia,Bandar Udara Bali Baru,Economic,Bali,Yogyakarta,521.9825957538203,782973.8936307305
+191,Train,PT KAI,Kertosono,Economic,Nganjuk,Yogyakarta,178.75205838611703,143001.64670889362
+192,Bus,Lorena,nearest bus terminal,Suite,Tulungagung,Yogyakarta,169.2547648272099,126941.07362040743
+193,Train,PT KAI,Wonogiri,Business,Wonogiri,Yogyakarta,65.1100266350096,67714.42770040999
+194,Train,PT KAI,Ambarawa,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+195,Plane,Batik Air,Bandar Udara Dabo,Suite,Kepulauan Riau,Yogyakarta,1077.3258575676762,2423983.1795272715
+196,Bus,Hiba,nearest bus terminal,Business,Mojokerto,Yogyakarta,241.18707882277067,156771.60123480094
+197,Plane,Citilink,Unknown Airport,Economic,Banten,Yogyakarta,496.92179636711603,745382.6945506741
+198,Plane,Lion Air,Bandar Udara Mali,Business,Sulawesi Tenggara,Yogyakarta,1349.952163038336,2632406.7179247555
+199,Bus,Nusantara,nearest bus terminal,Suite,Nganjuk,Yogyakarta,178.75205838611703,134064.04378958777
+200,Train,PT KAI,Caruban,Economic,Madiun,Yogyakarta,149.62256665123383,119698.05332098706
+201,Train,PT KAI,Sikampuh,Business,Banjar,Yogyakarta,732.5899586046614,761893.5569488478
+202,Bus,Budiman,nearest bus terminal,Economic,Karanganyar,Yogyakarta,87.02743185942376,43513.71592971188
+203,Train,PT KAI,Geneng,Business,Ngawi,Yogyakarta,127.1348515271285,132220.24558821364
+204,Bus,Budiman,nearest bus terminal,Suite,Jakarta Timur,Yogyakarta,429.14406523784896,321858.0489283867
+205,Bus,Mayasari,nearest bus terminal,Suite,Aceh,Yogyakarta,2014.7223682251845,1511041.7761688884
+206,Plane,NAM Air,Bandar Udara A.H. Nasution (Bandar Udara Bukit Malintang),Economic,Sumatera Utara,Yogyakarta,1659.117501711117,2488676.2525666757
+207,Bus,Budiman,nearest bus terminal,Business,Nganjuk,Yogyakarta,178.75205838611703,116188.83795097607
+208,Plane,Lion Air,Bandar Udara Bintan Baru,Economic,Riau,Yogyakarta,1355.379546339091,2033069.3195086364
+209,Train,PT KAI,Pondok Cina,Economic,Depok,Yogyakarta,428.9755164057098,343180.4131245678
+210,Train,PT KAI,Tasikmalaya,Business,Tasikmalaya,Yogyakarta,260.81634883719096,271249.0027906786
+211,Train,PT KAI,Bojong Gede,Business,Bogor,Yogyakarta,422.78231889794927,439693.6116538673
+212,Train,PT KAI,Karang Suwung,Business,Cirebon,Yogyakarta,243.56079565615678,253303.22748240305
+213,Plane,Batik Air,Bandar Udara Rar Gwamar (Bandar Udara Dobo),Suite,Maluku Utara,Yogyakarta,2173.4018230230486,4890154.101801859
+214,Train,PT KAI,Daru,Economic,Tangerang,Yogyakarta,457.6054446069322,366084.3556855458
+215,Bus,Mayasari,nearest bus terminal,Economic,Sulawesi Tenggara,Yogyakarta,1349.952163038336,674976.081519168
+216,Bus,Rosalia Indah,nearest bus terminal,Suite,Cilegon,Yogyakarta,523.5899966739782,392692.4975054837
+217,Bus,Dewi Sri,nearest bus terminal,Business,Sidoarjo,Yogyakarta,259.52981703864833,168694.3810751214
+218,Plane,NAM Air,Bandar Udara Pantar (Bandar Udara Kabir),Suite,Sulawesi Barat,Yogyakarta,1169.3609574565219,2631062.1542771743
+219,Train,PT KAI,Klender Baru,Suite,Jakarta Timur,Yogyakarta,429.14406523784896,514972.8782854188
+220,Train,PT KAI,Kadokangabus,Suite,Indramayu,Yogyakarta,848.6203775741213,1018344.4530889457
+221,Train,PT KAI,Paron,Economic,Ngawi,Yogyakarta,127.1348515271285,101707.8812217028
+222,Plane,Lion Air,Bandar Udara Depati Amir,Suite,Kepulauan Riau,Yogyakarta,1077.3258575676762,2423983.1795272715
+223,Bus,Mayasari,nearest bus terminal,Economic,Brebes,Yogyakarta,192.6946821360098,96347.3410680049
+224,Bus,Hiba,nearest bus terminal,Economic,Purworejo,Yogyakarta,53.36856175856877,26684.280879284383
+225,Train,PT KAI,Ngrombo,Economic,Boyolali,Yogyakarta,75.14059220340893,60112.473762727146
+226,Bus,Dewi Sri,nearest bus terminal,Business,Kalimantan Timur,Yogyakarta,1168.2805011804724,759382.3257673071
+227,Bus,Lorena,nearest bus terminal,Economic,Jawa Barat,Yogyakarta,324.18707186347507,162093.53593173754
+228,Plane,Sriwijaya Air,Bandar Udara H. Aroeppala,Economic,Sulawesi Utara,Yogyakarta,1797.54188318467,2696312.8247770052
+229,Plane,Batik Air,Bandar Udara Frans Sales Lega,Business,Bali,Yogyakarta,521.9825957538203,1017866.0617199496
+230,Plane,Lion Air,Unknown Airport,Economic,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1099447.798338774
+231,Plane,Lion Air,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Suite,Bengkulu,Yogyakarta,997.5854283886057,2244567.213874363
+232,Train,PT KAI,Bayeman,Suite,Probolinggo,Yogyakarta,324.1913946350937,389029.6735621124
+233,Plane,Lion Air,Unknown Airport,Economic,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1099447.798338774
+234,Bus,Haryanto,nearest bus terminal,Business,Sulawesi Barat,Yogyakarta,1169.3609574565219,760084.6223467393
+235,Train,PT KAI,Peterongan,Suite,Jombang,Yogyakarta,211.7850913076902,254142.10956922825
+236,Bus,Sinar Jaya,nearest bus terminal,Business,Klaten,Yogyakarta,44.33509515234492,28817.811849024198
+237,Bus,Dewi Sri,nearest bus terminal,Business,Probolinggo,Yogyakarta,324.1913946350937,210724.4065128109
+238,Bus,Budiman,nearest bus terminal,Suite,Surabaya,Yogyakarta,273.8180533906966,205363.54004302243
+239,Plane,Lion Air,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Business,Kalimantan Timur,Yogyakarta,1168.2805011804724,2278146.977301921
+240,Plane,Lion Air,Bandar Udara Frans Seda (Bandar Udara Wai Oti) (Bandar Udara Maumere),Suite,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1691946.9436787919
+241,Train,PT KAI,Cibadak,Business,Sukabumi,Yogyakarta,413.1162545173275,429640.9046980206
+242,Train,PT KAI,Kawunganten,Suite,Banjar,Yogyakarta,732.5899586046614,879107.9503255936
+243,Plane,Citilink,Bandar Udara Iskandar,Economic,Kalimantan Utara,Yogyakarta,1378.4708290615852,2067706.2435923778
+244,Bus,Budiman,nearest bus terminal,Suite,Kalimantan Barat,Yogyakarta,871.3478269442726,653510.8702082045
+245,Train,PT KAI,Tuban,Suite,Tuban,Yogyakarta,222.337926911915,266805.512294298
+246,Plane,Batik Air,Bandar Udara Adisucipto,Suite,Jawa Timur,Yogyakarta,236.30849522541612,531694.1142571862
+247,Plane,Batik Air,Bandar Udara Adisucipto,Suite,DKI Jakarta,Yogyakarta,438.967847019126,987677.6557930335
+248,Plane,Lion Air,Bandar Udara Dofa Benjani Falabisahaya (Bandar Udara Mangole),Business,Maluku Utara,Yogyakarta,2173.4018230230486,4238133.554894945
+249,Bus,Mayasari,nearest bus terminal,Economic,Jawa Tengah,Yogyakarta,84.66775283966177,42333.876419830885
+250,Plane,Garuda Indonesia,Bandar Udara Bandanaira (Bandar Udara Banda),Suite,Maluku,Yogyakarta,1987.6613976835763,4472238.144788047
+251,Plane,Batik Air,Bandar Udara Ahmad Yani,Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+252,Plane,Wings Air,Bandar Udara Juwata,Economic,Kalimantan Tengah,Yogyakarta,786.2951946731149,1179442.7920096724
+253,Plane,Garuda Indonesia,Bandar Udara Iskandar,Economic,Kalimantan Tengah,Yogyakarta,786.2951946731149,1179442.7920096724
+254,Train,PT KAI,Langen,Economic,Tegal,Yogyakarta,170.24107027498275,136192.8562199862
+255,Train,PT KAI,Comal,Economic,Pekalongan,Yogyakarta,132.35837071355405,105886.69657084324
+256,Plane,Lion Air,Bandar Udara Bintan Baru,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+257,Bus,Rosalia Indah,nearest bus terminal,Suite,Bali,Yogyakarta,521.9825957538203,391486.9468153652
+258,Train,PT KAI,Peterongan,Business,Jombang,Yogyakarta,211.7850913076902,220256.49495999783
+259,Plane,Lion Air,Bandar Udara Iskandar,Business,Kalimantan Barat,Yogyakarta,871.3478269442726,1699128.2625413318
+260,Train,PT KAI,Cianjur,Business,Cianjur,Yogyakarta,378.0621762662139,393184.6633168624
+261,Train,PT KAI,Ambarawa,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+262,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Kendal,Yogyakarta,12213.977221970157,6106988.610985079
+263,Plane,Sriwijaya Air,Bandar Udara Cut Nyak Dhien,Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+264,Plane,Citilink,Bandar Udara Buli,Economic,Maluku Utara,Yogyakarta,2173.4018230230486,3260102.734534573
+265,Bus,Nusantara,nearest bus terminal,Economic,Semarang,Yogyakarta,109.37687454139586,54688.437270697934
+266,Bus,Sinar Jaya,nearest bus terminal,Economic,Balikpapan,Yogyakarta,1036.1041341055677,518052.06705278385
+267,Plane,PT Trigana Air Service,Unknown Airport,Business,Banten,Yogyakarta,496.92179636711603,968997.5029158763
+268,Plane,Sriwijaya Air,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Business,Kalimantan Utara,Yogyakarta,1378.4708290615852,2688018.116670091
+269,Bus,Lorena,nearest bus terminal,Suite,Boyolali,Yogyakarta,75.14059220340893,56355.444152556694
+270,Train,PT KAI,Ngebruk,Economic,Malang,Yogyakarta,249.9132515073408,199930.60120587263
+271,Train,PT KAI,Gembong,Economic,Lamongan,Yogyakarta,236.16326225674064,188930.6098053925
+272,Bus,Haryanto,nearest bus terminal,Suite,Jombang,Yogyakarta,211.7850913076902,158838.81848076766
+273,Train,PT KAI,Lubuk Buaya,Economic,Padang,Yogyakarta,1356.2769455231717,1085021.5564185374
+274,Bus,Budiman,nearest bus terminal,Economic,Maluku Utara,Yogyakarta,2173.4018230230486,1086700.9115115243
+275,Train,PT KAI,Klender Baru,Business,Jakarta Timur,Yogyakarta,429.14406523784896,446309.82784736296
+276,Train,PT KAI,Bumiayu,Suite,Tegal,Yogyakarta,170.24107027498275,204289.28432997927
+277,Plane,Sriwijaya Air,Bandar Udara Bintan Baru,Suite,Kepulauan Riau,Yogyakarta,1077.3258575676762,2423983.1795272715
+278,Plane,Batik Air,Bandar Udara Mbay Surabaya II,Suite,Sulawesi Barat,Yogyakarta,1169.3609574565219,2631062.1542771743
+279,Train,PT KAI,Ketanggungan,Suite,Brebes,Yogyakarta,192.6946821360098,231233.61856321176
+280,Train,PT KAI,Tuban,Business,Tuban,Yogyakarta,222.337926911915,231231.44398839158
+281,Plane,PT Trigana Air Service,Bandar Udara H. Aroeppala,Business,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2632894.2044559033
+282,Plane,Wings Air,Bandar Udara Ngloram (Bandar Udara Blora),Economic,Jawa Timur,Yogyakarta,236.30849522541612,354462.74283812416
+283,Plane,Batik Air,Bandar Udara D. C. Saundale d.h. Bandar Udara Lekunik,Economic,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,1709901.1519921075
+284,Bus,Mayasari,nearest bus terminal,Economic,Depok,Yogyakarta,428.9755164057098,214487.7582028549
+285,Train,PT KAI,Karangantu,Economic,Cilegon,Yogyakarta,523.5899966739782,418871.9973391826
+286,Plane,Wings Air,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Business,Kalimantan Utara,Yogyakarta,1378.4708290615852,2688018.116670091
+287,Train,PT KAI,Ciamis,Suite,Ciamis,Yogyakarta,228.653627845652,274384.35341478244
+288,Bus,Budiman,nearest bus terminal,Business,Magetan,Yogyakarta,112.68790797419841,73247.14018322897
+289,Bus,Dewi Sri,nearest bus terminal,Economic,Jawa Timur,Yogyakarta,236.30849522541612,118154.24761270806
+290,Plane,Sriwijaya Air,Pangkalan Udara Soewondo d.h. Bandar Udara Polonia,Business,DKI Jakarta,Yogyakarta,438.967847019126,855987.3016872958
+291,Bus,Lorena,nearest bus terminal,Suite,Banjar,Yogyakarta,732.5899586046614,549442.4689534961
+292,Train,PT KAI,Walikukun,Suite,Ngawi,Yogyakarta,127.1348515271285,152561.8218325542
+293,Plane,Citilink,Bandar Udara Internasional Hang Nadim,Business,Lampung,Yogyakarta,684.1841734461109,1334159.1382199163
+294,Train,PT KAI,Cikini,Business,Jakarta Pusat,Yogyakarta,437.0517885095066,454533.86004988686
+295,Train,PT KAI,Sukorejo,Business,Pasuruan,Yogyakarta,282.6093643740866,293913.7389490501
+296,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Sragen,Yogyakarta,91.47727523446306,45738.637617231536
+297,Bus,Dewi Sri,nearest bus terminal,Business,Mojokerto,Yogyakarta,241.18707882277067,156771.60123480094
+298,Bus,Sinar Jaya,nearest bus terminal,Business,Tasikmalaya,Yogyakarta,260.81634883719096,169530.6267441741
+299,Bus,Lorena,nearest bus terminal,Business,Banyumas,Yogyakarta,149.57528698104778,97223.93653768106
+300,Bus,Haryanto,nearest bus terminal,Suite,Bekasi,Yogyakarta,419.4694344733886,314602.07585504145
+301,Plane,Batik Air,Bandar Udara Binaka,Suite,Riau,Yogyakarta,1355.379546339091,3049603.9792629546
+302,Train,PT KAI,Cibinong,Economic,Bogor,Yogyakarta,422.78231889794927,338225.85511835944
+303,Train,PT KAI,Blitar,Economic,Blitar,Yogyakarta,198.62929149028835,158903.43319223067
+304,Train,PT KAI,Palur,Suite,Karanganyar,Yogyakarta,87.02743185942376,104432.91823130852
+305,Train,PT KAI,Benowo,Suite,Mojokerto,Yogyakarta,241.18707882277067,289424.4945873248
+306,Bus,Sinar Jaya,nearest bus terminal,Suite,Banjar,Yogyakarta,732.5899586046614,549442.4689534961
+307,Train,PT KAI,Sukorejo,Business,Pasuruan,Yogyakarta,282.6093643740866,293913.7389490501
+308,Plane,Wings Air,Bandar Udara Juwata,Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+309,Plane,Lion Air,Bandar Udara D. C. Saundale d.h. Bandar Udara Lekunik,Suite,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1691946.9436787919
+310,Train,PT KAI,Manonjaya,Business,Tasikmalaya,Yogyakarta,260.81634883719096,271249.0027906786
+311,Train,PT KAI,Daru,Business,Tangerang,Yogyakarta,457.6054446069322,475909.6623912095
+312,Plane,Lion Air,Bandar Udara Abdulrachman Saleh,Economic,DKI Jakarta,Yogyakarta,438.967847019126,658451.770528689
+313,Plane,Wings Air,Bandar Udara Benjina,Suite,Maluku,Yogyakarta,1987.6613976835763,4472238.144788047
+314,Bus,Hiba,nearest bus terminal,Suite,Kendari,Yogyakarta,1415.3805831726015,1061535.437379451
+315,Plane,Citilink,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+316,Bus,Nusantara,nearest bus terminal,Suite,Banten,Yogyakarta,496.92179636711603,372691.34727533703
+317,Bus,Mayasari,nearest bus terminal,Economic,Cianjur,Yogyakarta,378.0621762662139,189031.08813310694
+318,Bus,Lorena,nearest bus terminal,Economic,Banjar,Yogyakarta,732.5899586046614,366294.9793023307
+319,Bus,Dewi Sri,nearest bus terminal,Economic,Samarinda,Yogyakarta,1117.082440871031,558541.2204355155
+320,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Ciamis,Yogyakarta,228.653627845652,171490.220884239
+321,Train,PT KAI,Cikoya,Suite,Tangerang,Yogyakarta,457.6054446069322,549126.5335283186
+322,Plane,Citilink,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Suite,Sumatera Selatan,Yogyakarta,877.9380166727185,1975360.5375136165
+323,Bus,Budiman,nearest bus terminal,Suite,Sragen,Yogyakarta,91.47727523446306,68607.95642584731
+324,Plane,Batik Air,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+325,Plane,Sriwijaya Air,Bandar Udara Bintan Baru,Economic,Sumatera Utara,Yogyakarta,1659.117501711117,2488676.2525666757
+326,Bus,Budiman,nearest bus terminal,Business,Jakarta Selatan,Yogyakarta,435.818905534949,283282.2885977169
+327,Train,PT KAI,Barat,Economic,Magetan,Yogyakarta,112.68790797419841,90150.32637935872
+328,Bus,Dewi Sri,nearest bus terminal,Suite,Boyolali,Yogyakarta,75.14059220340893,56355.444152556694
+329,Train,PT KAI,Kramat,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+330,Plane,Sriwijaya Air,Bandar Udara Komodo,Suite,Sulawesi Tenggara,Yogyakarta,1349.952163038336,3037392.3668362563
+331,Train,PT KAI,Tigaraksa,Suite,Tangerang,Yogyakarta,457.6054446069322,549126.5335283186
+332,Train,PT KAI,Bojonegoro,Economic,Bojonegoro,Yogyakarta,179.96708290456277,143973.66632365022
+333,Train,PT KAI,Jayakarta,Suite,Jakarta Barat,Yogyakarta,447.8533791485487,537424.0549782584
+334,Plane,Wings Air,Bandar Udara Cut Nyak Dhien,Business,Sumatera Utara,Yogyakarta,1659.117501711117,3235279.1283366783
+335,Plane,Garuda Indonesia,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+336,Train,PT KAI,Ambarawa,Business,Demak,Yogyakarta,120.35665720273047,125170.9234908397
+337,Train,PT KAI,Wadu,Business,Blora,Yogyakarta,160.53000515612763,166951.20536237274
+338,Bus,Hiba,nearest bus terminal,Suite,Sragen,Yogyakarta,91.47727523446306,68607.95642584731
+339,Train,PT KAI,Cianjur,Economic,Cianjur,Yogyakarta,378.0621762662139,302449.7410129711
+340,Bus,Sinar Jaya,nearest bus terminal,Business,Balikpapan,Yogyakarta,1036.1041341055677,673467.687168619
+341,Train,PT KAI,Cikadongdong,Economic,Bandung Barat,Yogyakarta,347.3558014760002,277884.64118080016
+342,Bus,Hiba,nearest bus terminal,Business,Sulawesi Selatan,Yogyakarta,1163.9371824955651,756559.1686221174
+343,Plane,NAM Air,Bandar Udara Arung Palakka,Suite,Sulawesi Selatan,Yogyakarta,1163.9371824955651,2618858.6606150214
+344,Train,PT KAI,Bowerno,Suite,Bojonegoro,Yogyakarta,179.96708290456277,215960.49948547533
+345,Train,PT KAI,Rogojampi,Business,Banyuwangi,Yogyakarta,417.7821639876958,434493.45054720365
+346,Train,PT KAI,Sengon,Suite,Pasuruan,Yogyakarta,282.6093643740866,339131.23724890396
+347,Train,PT KAI,Tarahan,Business,Bandar Lampung,Yogyakarta,629.7894061501536,654980.9823961598
+348,Bus,Mayasari,nearest bus terminal,Suite,Kendal,Yogyakarta,12213.977221970157,9160482.916477619
+349,Train,PT KAI,Kotok,Economic,Jember,Yogyakarta,368.1953643126563,294556.29145012505
+350,Plane,Garuda Indonesia,Bandar Udara D. C. Saundale d.h. Bandar Udara Lekunik,Suite,Bali,Yogyakarta,521.9825957538203,1174460.8404460957
+351,Plane,NAM Air,Bandar Udara Buli,Economic,Maluku Utara,Yogyakarta,2173.4018230230486,3260102.734534573
+352,Train,PT KAI,Babat,Suite,Lamongan,Yogyakarta,236.16326225674064,283395.91470808873
+353,Plane,NAM Air,Bandar Udara Frans Seda (Bandar Udara Wai Oti) (Bandar Udara Maumere),Economic,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1127964.6291191946
+354,Train,PT KAI,Tasikmalaya,Suite,Tasikmalaya,Yogyakarta,260.81634883719096,312979.6186046292
+355,Train,PT KAI,Randu Blatung,Economic,Blora,Yogyakarta,160.53000515612763,128424.0041249021
+356,Plane,Batik Air,Pangkalan Udara Soewondo d.h. Bandar Udara Polonia,Business,DKI Jakarta,Yogyakarta,438.967847019126,855987.3016872958
+357,Train,PT KAI,Cipari,Business,Banjar,Yogyakarta,732.5899586046614,761893.5569488478
+358,Plane,NAM Air,Bandar Udara Banyuwangi d.h. Bandar Udara Blimbingsari,Economic,Jawa Timur,Yogyakarta,236.30849522541612,354462.74283812416
+359,Bus,Mayasari,nearest bus terminal,Suite,Jombang,Yogyakarta,211.7850913076902,158838.81848076766
+360,Train,PT KAI,Purwoasri,Economic,Kediri,Yogyakarta,181.49519008042117,145196.15206433693
+361,Bus,Sinar Jaya,nearest bus terminal,Suite,Tasikmalaya,Yogyakarta,260.81634883719096,195612.2616278932
+362,Plane,Wings Air,Bandar Udara H. Asan,Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+363,Bus,Rosalia Indah,nearest bus terminal,Suite,Magetan,Yogyakarta,112.68790797419841,84515.93098064882
+364,Bus,Rosalia Indah,nearest bus terminal,Business,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,740957.1658632467
+365,Plane,PT Trigana Air Service,Bandar Udara Iskandar,Suite,Kalimantan Utara,Yogyakarta,1378.4708290615852,3101559.3653885666
+366,Bus,Lorena,nearest bus terminal,Suite,Kendal,Yogyakarta,12213.977221970157,9160482.916477619
+367,Bus,Budiman,nearest bus terminal,Suite,Wonogiri,Yogyakarta,65.1100266350096,48832.5199762572
+368,Plane,Lion Air,Unknown Airport,Economic,Gorontalo,Yogyakarta,1650.7274560911121,2476091.184136668
+369,Bus,Mayasari,nearest bus terminal,Economic,Sumatera Utara,Yogyakarta,1659.117501711117,829558.7508555586
+370,Plane,Garuda Indonesia,Bandar Udara Pantar (Bandar Udara Kabir),Business,Sulawesi Barat,Yogyakarta,1169.3609574565219,2280253.867040218
+371,Bus,Nusantara,nearest bus terminal,Business,Kalimantan Barat,Yogyakarta,871.3478269442726,566376.0875137772
+372,Plane,PT Trigana Air Service,Unknown Airport,Economic,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1099447.798338774
+373,Plane,Sriwijaya Air,Bandar Udara Fatmawati Soekarno,Business,Bengkulu,Yogyakarta,997.5854283886057,1945291.585357781
+374,Bus,Mayasari,nearest bus terminal,Economic,Sragen,Yogyakarta,91.47727523446306,45738.637617231536
+375,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Bengkulu,Yogyakarta,997.5854283886057,748189.0712914543
+376,Bus,Dewi Sri,nearest bus terminal,Business,Sidoarjo,Yogyakarta,259.52981703864833,168694.3810751214
+377,Train,PT KAI,Mangkang,Business,Semarang,Yogyakarta,109.37687454139586,113751.9495230517
+378,Train,PT KAI,Klari,Economic,Karawang,Yogyakarta,385.72044969812714,308576.3597585017
+379,Train,PT KAI,Sumlaran,Business,Lamongan,Yogyakarta,236.16326225674064,245609.79274701027
+380,Plane,Citilink,Bandar Udara Depati Amir,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,2100785.4222569684
+381,Bus,Rosalia Indah,nearest bus terminal,Suite,Bekasi,Yogyakarta,419.4694344733886,314602.07585504145
+382,Plane,Citilink,Bandar Udara Gusti Sjamsir Alam (Bandar Udara Stagen),Business,Kalimantan Timur,Yogyakarta,1168.2805011804724,2278146.977301921
+383,Train,PT KAI,Cianjur,Suite,Cianjur,Yogyakarta,378.0621762662139,453674.6115194566
+384,Bus,Hiba,nearest bus terminal,Economic,Ngawi,Yogyakarta,127.1348515271285,63567.42576356425
+385,Plane,Batik Air,Bandar Udara Arung Palakka,Business,Sulawesi Selatan,Yogyakarta,1163.9371824955651,2269677.505866352
+386,Bus,Haryanto,nearest bus terminal,Suite,Boyolali,Yogyakarta,75.14059220340893,56355.444152556694
+387,Plane,Batik Air,Bandar Udara Ngloram (Bandar Udara Blora),Economic,Jawa Timur,Yogyakarta,236.30849522541612,354462.74283812416
+388,Bus,Dewi Sri,nearest bus terminal,Business,Sulawesi Tenggara,Yogyakarta,1349.952163038336,877468.9059749184
+389,Train,PT KAI,Kramat,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+390,Train,PT KAI,Telawa,Business,Brebes,Yogyakarta,192.6946821360098,200402.4694214502
+391,Bus,Sinar Jaya,nearest bus terminal,Economic,Bekasi,Yogyakarta,419.4694344733886,209734.7172366943
+392,Plane,Lion Air,Bandar Udara Haluoleo (Bandar Udara Wolter Monginsidi),Economic,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2025303.2341968487
+393,Train,PT KAI,Geneng,Suite,Ngawi,Yogyakarta,127.1348515271285,152561.8218325542
+394,Train,PT KAI,Tenjo,Economic,Bogor,Yogyakarta,422.78231889794927,338225.85511835944
+395,Train,PT KAI,Ambarawa,Business,Demak,Yogyakarta,120.35665720273047,125170.9234908397
+396,Bus,Nusantara,nearest bus terminal,Business,Kendal,Yogyakarta,12213.977221970157,7939085.194280603
+397,Bus,Hiba,nearest bus terminal,Suite,Pekanbaru,Yogyakarta,1365.067141940363,1023800.3564552723
+398,Plane,NAM Air,Unknown Airport,Business,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1429282.137840406
+399,Plane,Wings Air,Bandar Udara Iskandar,Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+400,Plane,NAM Air,Bandar Udara Haluoleo (Bandar Udara Wolter Monginsidi),Business,Sulawesi Utara,Yogyakarta,1797.54188318467,3505206.672210107
+401,Bus,Lorena,nearest bus terminal,Economic,Madiun,Yogyakarta,149.62256665123383,74811.28332561691
+402,Bus,Lorena,nearest bus terminal,Economic,Banjar,Yogyakarta,732.5899586046614,366294.9793023307
+403,Plane,PT Trigana Air Service,Bandar Udara Ahmad Yani,Business,Jawa Barat,Yogyakarta,324.18707186347507,632164.7901337764
+404,Plane,Wings Air,Bandar Udara Mali,Suite,Sulawesi Barat,Yogyakarta,1169.3609574565219,2631062.1542771743
+405,Bus,Haryanto,nearest bus terminal,Economic,Banjarmasin,Yogyakarta,696.0241488204558,348012.0744102279
+406,Plane,Wings Air,Bandar Udara Enggano,Suite,Jambi,Yogyakarta,1080.9267465522385,2432085.1797425365
+407,Train,PT KAI,Kebayoran,Business,Jakarta Selatan,Yogyakarta,435.818905534949,453251.661756347
+408,Bus,Lorena,nearest bus terminal,Business,Sumatera Utara,Yogyakarta,1659.117501711117,1078426.3761122262
+409,Plane,Citilink,Bandar Udara Iskandar,Economic,Kalimantan Timur,Yogyakarta,1168.2805011804724,1752420.7517707085
+410,Bus,Rosalia Indah,nearest bus terminal,Business,Ngawi,Yogyakarta,127.1348515271285,82637.65349263353
+411,Train,PT KAI,Kemayoran,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+412,Bus,Nusantara,nearest bus terminal,Business,Bengkulu,Yogyakarta,997.5854283886057,648430.5284525937
+413,Bus,Lorena,nearest bus terminal,Business,Sumatera Selatan,Yogyakarta,877.9380166727185,570659.710837267
+414,Bus,Sinar Jaya,nearest bus terminal,Economic,Garut,Yogyakarta,284.8266176301042,142413.3088150521
+415,Bus,Hiba,nearest bus terminal,Economic,Magetan,Yogyakarta,112.68790797419841,56343.95398709921
+416,Train,PT KAI,Dawuan,Economic,Karawang,Yogyakarta,385.72044969812714,308576.3597585017
+417,Bus,Lorena,nearest bus terminal,Business,Sukabumi,Yogyakarta,413.1162545173275,268525.56543626287
+418,Bus,Mayasari,nearest bus terminal,Business,Cilacap,Yogyakarta,181.58843556889718,118032.48311978317
+419,Plane,Citilink,Bandar Udara Binaka,Suite,Kepulauan Riau,Yogyakarta,1077.3258575676762,2423983.1795272715
+420,Bus,Dewi Sri,nearest bus terminal,Economic,Probolinggo,Yogyakarta,324.1913946350937,162095.69731754684
+421,Plane,Lion Air,Bandar Udara Ahmad Yani,Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+422,Train,PT KAI,Cisaat,Business,Sukabumi,Yogyakarta,413.1162545173275,429640.9046980206
+423,Train,PT KAI,Brumbung,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+424,Train,PT KAI,Depok Baru,Suite,Depok,Yogyakarta,428.9755164057098,514770.61968685174
+425,Train,PT KAI,Garahan,Economic,Jember,Yogyakarta,368.1953643126563,294556.29145012505
+426,Plane,NAM Air,Bandar Udara Abdulrachman Saleh,Suite,DKI Jakarta,Yogyakarta,438.967847019126,987677.6557930335
+427,Bus,Dewi Sri,nearest bus terminal,Business,Cimahi,Yogyakarta,334.9202108675686,217698.13706391957
+428,Train,PT KAI,Sungai Lagoa,Suite,Jakarta Utara,Yogyakarta,433.7601399791081,520512.1679749297
+429,Bus,Nusantara,nearest bus terminal,Business,Indramayu,Yogyakarta,848.6203775741213,551603.2454231789
+430,Plane,Wings Air,Bandar Udara Gusti Sjamsir Alam (Bandar Udara Stagen),Economic,Kalimantan Timur,Yogyakarta,1168.2805011804724,1752420.7517707085
+431,Plane,Citilink,Bandar Udara Haji Muhammad Sidik,Economic,Kalimantan Utara,Yogyakarta,1378.4708290615852,2067706.2435923778
+432,Plane,Garuda Indonesia,Bandar Udara Iskandar,Economic,Kalimantan Tengah,Yogyakarta,786.2951946731149,1179442.7920096724
+433,Train,PT KAI,Sepanjang,Suite,Sidoarjo,Yogyakarta,259.52981703864833,311435.780446378
+434,Bus,Dewi Sri,nearest bus terminal,Business,Karawang,Yogyakarta,385.72044969812714,250718.29230378265
+435,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Lampung,Yogyakarta,684.1841734461109,342092.08672305546
+436,Bus,Rosalia Indah,nearest bus terminal,Economic,Jambi,Yogyakarta,1080.9267465522385,540463.3732761192
+437,Plane,NAM Air,Bandar Udara Iskandar,Business,Kalimantan Utara,Yogyakarta,1378.4708290615852,2688018.116670091
+438,Train,PT KAI,Cikarang,Economic,Bekasi,Yogyakarta,419.4694344733886,335575.5475787109
+439,Plane,Lion Air,Bandar Udara Iskandar,Business,Kalimantan Timur,Yogyakarta,1168.2805011804724,2278146.977301921
+440,Plane,Citilink,Bandar Udara Adisucipto,Business,DKI Jakarta,Yogyakarta,438.967847019126,855987.3016872958
+441,Bus,Nusantara,nearest bus terminal,Business,Banten,Yogyakarta,496.92179636711603,322999.1676386254
+442,Plane,Wings Air,Bandar Udara Adisucipto,Business,DKI Jakarta,Yogyakarta,438.967847019126,855987.3016872958
+443,Bus,Dewi Sri,nearest bus terminal,Business,Mataram,Yogyakarta,635.8472587039132,413300.71815754357
+444,Train,PT KAI,Pucuk,Suite,Lamongan,Yogyakarta,236.16326225674064,283395.91470808873
+445,Bus,Lorena,nearest bus terminal,Economic,Sukabumi,Yogyakarta,413.1162545173275,206558.12725866374
+446,Train,PT KAI,Ledokombo,Suite,Jember,Yogyakarta,368.1953643126563,441834.4371751876
+447,Bus,Dewi Sri,nearest bus terminal,Economic,Kalimantan Utara,Yogyakarta,1378.4708290615852,689235.4145307926
+448,Plane,PT Trigana Air Service,Bandar Udara Bobong,Suite,Maluku Utara,Yogyakarta,2173.4018230230486,4890154.101801859
+449,Plane,Batik Air,Bandar Udara H.A.S. Hanandjoeddin d.h. Bandar Udara Buluh Tumbang,Business,Sumatera Selatan,Yogyakarta,877.9380166727185,1711979.132511801
+450,Train,PT KAI,Mojokerto,Economic,Mojokerto,Yogyakarta,241.18707882277067,192949.66305821654
+451,Train,PT KAI,Haurgeulis,Economic,Indramayu,Yogyakarta,848.6203775741213,678896.3020592971
+452,Train,PT KAI,Rawa Buaya,Suite,Jakarta Barat,Yogyakarta,447.8533791485487,537424.0549782584
+453,Bus,Nusantara,nearest bus terminal,Suite,Jakarta Pusat,Yogyakarta,437.0517885095066,327788.84138212993
+454,Bus,Sinar Jaya,nearest bus terminal,Economic,Blitar,Yogyakarta,198.62929149028835,99314.64574514418
+455,Train,PT KAI,Sroyo,Suite,Bojonegoro,Yogyakarta,179.96708290456277,215960.49948547533
+456,Plane,Citilink,Bandar Udara Dabo,Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+457,Bus,Sinar Jaya,nearest bus terminal,Suite,Jawa Tengah,Yogyakarta,84.66775283966177,63500.814629746324
+458,Bus,Dewi Sri,nearest bus terminal,Business,Cianjur,Yogyakarta,378.0621762662139,245740.41457303902
+459,Bus,Hiba,nearest bus terminal,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,700261.8074189895
+460,Train,PT KAI,Cikarang,Suite,Bekasi,Yogyakarta,419.4694344733886,503363.32136806636
+461,Train,PT KAI,Cikarang,Suite,Bekasi,Yogyakarta,419.4694344733886,503363.32136806636
+462,Train,PT KAI,Ambarawa,Business,Demak,Yogyakarta,120.35665720273047,125170.9234908397
+463,Train,PT KAI,Tanggulangin,Business,Sidoarjo,Yogyakarta,259.52981703864833,269911.00972019427
+464,Train,PT KAI,Gembong,Economic,Lamongan,Yogyakarta,236.16326225674064,188930.6098053925
+465,Plane,Wings Air,Bandar Udara Abdulrachman Saleh,Economic,DKI Jakarta,Yogyakarta,438.967847019126,658451.770528689
+466,Plane,Wings Air,Bandar Udara Ahmad Yani,Business,Jawa Barat,Yogyakarta,324.18707186347507,632164.7901337764
+467,Train,PT KAI,Tarik,Suite,Sidoarjo,Yogyakarta,259.52981703864833,311435.780446378
+468,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Pasuruan,Yogyakarta,282.6093643740866,211957.02328056496
+469,Train,PT KAI,Citeras,Suite,Lebak,Yogyakarta,484.56524675423674,581478.296105084
+470,Plane,Citilink,Bandar Udara Binuang,Suite,Kalimantan Selatan,Yogyakarta,786.7319481865729,1770146.8834197891
+471,Plane,Citilink,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Economic,Kalimantan Utara,Yogyakarta,1378.4708290615852,2067706.2435923778
+472,Bus,Sinar Jaya,nearest bus terminal,Business,Kalimantan Utara,Yogyakarta,1378.4708290615852,896006.0388900305
+473,Plane,Lion Air,Bandar Udara El Tari,Suite,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1691946.9436787919
+474,Train,PT KAI,Ngawi,Economic,Ngawi,Yogyakarta,127.1348515271285,101707.8812217028
+475,Bus,Hiba,nearest bus terminal,Suite,Bengkulu,Yogyakarta,997.5854283886057,748189.0712914543
+476,Train,PT KAI,Sukoharjo,Business,Sragen,Yogyakarta,91.47727523446306,95136.36624384159
+477,Train,PT KAI,Cisaat,Economic,Sukabumi,Yogyakarta,413.1162545173275,330493.003613862
+478,Bus,Dewi Sri,nearest bus terminal,Business,Boyolali,Yogyakarta,75.14059220340893,48841.384932215806
+479,Train,PT KAI,Probolinggo,Business,Probolinggo,Yogyakarta,324.1913946350937,337159.0504204974
+480,Plane,Wings Air,Bandar Udara Buli,Economic,Maluku,Yogyakarta,1987.6613976835763,2981492.0965253646
+481,Train,PT KAI,Cikini,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+482,Bus,Mayasari,nearest bus terminal,Economic,Tasikmalaya,Yogyakarta,260.81634883719096,130408.17441859547
+483,Bus,Haryanto,nearest bus terminal,Economic,Batang,Yogyakarta,4355.101666817891,2177550.8334089452
+484,Bus,Lorena,nearest bus terminal,Economic,Demak,Yogyakarta,120.35665720273047,60178.32860136524
+485,Train,PT KAI,Benowo,Economic,Mojokerto,Yogyakarta,241.18707882277067,192949.66305821654
+486,Bus,Dewi Sri,nearest bus terminal,Economic,Bali,Yogyakarta,521.9825957538203,260991.29787691016
+487,Bus,Nusantara,nearest bus terminal,Suite,Madiun,Yogyakarta,149.62256665123383,112216.92498842537
+488,Train,PT KAI,Pondok Cina,Business,Depok,Yogyakarta,428.9755164057098,446134.5370619382
+489,Plane,Citilink,Bandar Udara Bobong,Economic,Maluku,Yogyakarta,1987.6613976835763,2981492.0965253646
+490,Train,PT KAI,Maseng,Suite,Bogor,Yogyakarta,422.78231889794927,507338.78267753916
+491,Bus,Nusantara,nearest bus terminal,Suite,Ternate,Yogyakarta,11547.374859761849,8660531.144821387
+492,Bus,Hiba,nearest bus terminal,Suite,Cilacap,Yogyakarta,181.58843556889718,136191.32667667288
+493,Train,PT KAI,Kedungbanteng,Business,Sragen,Yogyakarta,91.47727523446306,95136.36624384159
+494,Plane,Batik Air,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Economic,Kalimantan Timur,Yogyakarta,1168.2805011804724,1752420.7517707085
+495,Bus,Haryanto,nearest bus terminal,Suite,Samarinda,Yogyakarta,1117.082440871031,837811.8306532733
+496,Bus,Rosalia Indah,nearest bus terminal,Business,Boyolali,Yogyakarta,75.14059220340893,48841.384932215806
+497,Bus,Mayasari,nearest bus terminal,Business,Ciamis,Yogyakarta,228.653627845652,148624.85809967382
+498,Train,PT KAI,Tarahan,Business,Bandar Lampung,Yogyakarta,629.7894061501536,654980.9823961598
+499,Bus,Mayasari,nearest bus terminal,Suite,Banjar,Yogyakarta,732.5899586046614,549442.4689534961
+500,Plane,Lion Air,Bandar Udara Enggano,Economic,Bengkulu,Yogyakarta,997.5854283886057,1496378.1425829085
+501,Bus,Sinar Jaya,nearest bus terminal,Suite,Balikpapan,Yogyakarta,1036.1041341055677,777078.1005791757
+502,Bus,Nusantara,nearest bus terminal,Suite,Kendari,Yogyakarta,1415.3805831726015,1061535.437379451
+503,Plane,Sriwijaya Air,Bandar Udara Bengkalis (Bandar Udara Meranti) (Bandar Udara Sei Selari) (Bandar Udara Sei Pakning),Economic,Riau,Yogyakarta,1355.379546339091,2033069.3195086364
+504,Bus,Budiman,nearest bus terminal,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,218525.8942547533
+505,Train,PT KAI,Kedungbanteng,Economic,Sragen,Yogyakarta,91.47727523446306,73181.82018757045
+506,Train,PT KAI,Bojong Indah,Business,Jakarta Barat,Yogyakarta,447.8533791485487,465767.51431449066
+507,Train,PT KAI,Semarang Poncol,Economic,Semarang,Yogyakarta,109.37687454139586,87501.49963311669
+508,Plane,PT Trigana Air Service,Bandar Udara Alas Leuser,Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+509,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Cirebon,Yogyakarta,243.56079565615678,121780.39782807839
+510,Train,PT KAI,Poris,Suite,Serang,Yogyakarta,526.216155379768,631459.3864557217
+511,Plane,PT Trigana Air Service,Unknown Airport,Business,Banten,Yogyakarta,496.92179636711603,968997.5029158763
+512,Bus,Mayasari,nearest bus terminal,Suite,Subang,Yogyakarta,1573.8721979387558,1180404.1484540668
+513,Plane,PT Trigana Air Service,Bandar Udara Depati Parbo,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+514,Train,PT KAI,Cakung,Economic,Jakarta Timur,Yogyakarta,429.14406523784896,343315.2521902792
+515,Train,PT KAI,Universitas Indonesia,Economic,Depok,Yogyakarta,428.9755164057098,343180.4131245678
+516,Train,PT KAI,Caruban,Suite,Madiun,Yogyakarta,149.62256665123383,179547.0799814806
+517,Plane,Batik Air,Bandar Udara Benjina,Economic,Maluku Utara,Yogyakarta,2173.4018230230486,3260102.734534573
+518,Plane,Sriwijaya Air,Bandar Udara Alas Leuser,Business,Aceh,Yogyakarta,2014.7223682251845,3928708.61803911
+519,Train,PT KAI,Jayakarta,Business,Jakarta Barat,Yogyakarta,447.8533791485487,465767.51431449066
+520,Plane,Lion Air,Bandar Udara Bintan Baru,Economic,Riau,Yogyakarta,1355.379546339091,2033069.3195086364
+521,Train,PT KAI,Lubuk Buaya,Business,Padang,Yogyakarta,1356.2769455231717,1410528.0233440986
+522,Train,PT KAI,Cikampek,Economic,Karawang,Yogyakarta,385.72044969812714,308576.3597585017
+523,Bus,Nusantara,nearest bus terminal,Suite,Brebes,Yogyakarta,192.6946821360098,144521.01160200735
+524,Plane,Lion Air,Bandar Udara Mali,Suite,Sulawesi Tenggara,Yogyakarta,1349.952163038336,3037392.3668362563
+525,Train,PT KAI,Kruwul,Business,Lamongan,Yogyakarta,236.16326225674064,245609.79274701027
+526,Train,PT KAI,Temuguruh,Economic,Banyuwangi,Yogyakarta,417.7821639876958,334225.73119015666
+527,Plane,Citilink,Bandar Udara Ahmad Yani,Economic,Jawa Barat,Yogyakarta,324.18707186347507,486280.6077952126
+528,Bus,Haryanto,nearest bus terminal,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,700261.8074189895
+529,Bus,Hiba,nearest bus terminal,Suite,Karawang,Yogyakarta,385.72044969812714,289290.3372735954
+530,Train,PT KAI,Songgom,Business,Brebes,Yogyakarta,192.6946821360098,200402.4694214502
+531,Plane,Citilink,Bandar Udara Buli,Suite,Maluku Utara,Yogyakarta,2173.4018230230486,4890154.101801859
+532,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Brebes,Yogyakarta,192.6946821360098,96347.3410680049
+533,Plane,Citilink,Bandar Udara Banyuwangi d.h. Bandar Udara Blimbingsari,Suite,Jawa Timur,Yogyakarta,236.30849522541612,531694.1142571862
+534,Plane,Garuda Indonesia,Bandar Udara Bengkalis (Bandar Udara Meranti) (Bandar Udara Sei Selari) (Bandar Udara Sei Pakning),Business,Riau,Yogyakarta,1355.379546339091,2642990.115361227
+535,Train,PT KAI,Barat,Economic,Magetan,Yogyakarta,112.68790797419841,90150.32637935872
+536,Bus,Lorena,nearest bus terminal,Business,Wonogiri,Yogyakarta,65.1100266350096,42321.517312756245
+537,Train,PT KAI,Geneng,Business,Ngawi,Yogyakarta,127.1348515271285,132220.24558821364
+538,Bus,Nusantara,nearest bus terminal,Suite,Sragen,Yogyakarta,91.47727523446306,68607.95642584731
+539,Bus,Mayasari,nearest bus terminal,Business,Makassar,Yogyakarta,1048.5138765246138,681534.019740999
+540,Bus,Nusantara,nearest bus terminal,Suite,Sulawesi Tenggara,Yogyakarta,1349.952163038336,1012464.122278752
+541,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Tegal,Yogyakarta,170.24107027498275,85120.53513749137
+542,Bus,Rosalia Indah,nearest bus terminal,Suite,Nganjuk,Yogyakarta,178.75205838611703,134064.04378958777
+543,Plane,PT Trigana Air Service,Bandar Udara Frans Sales Lega,Economic,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,1127964.6291191946
+544,Train,PT KAI,Dawuan,Suite,Karawang,Yogyakarta,385.72044969812714,462864.5396377526
+545,Plane,Sriwijaya Air,Bandar Udara D. C. Saundale d.h. Bandar Udara Lekunik,Business,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,2222871.49758974
+546,Bus,Rosalia Indah,nearest bus terminal,Suite,Grobogan,Yogyakarta,113.49164077468595,85118.73058101446
+547,Train,PT KAI,Pagaden Baru,Suite,Subang,Yogyakarta,1573.8721979387558,1888646.637526507
+548,Bus,Lorena,nearest bus terminal,Economic,Blora,Yogyakarta,160.53000515612763,80265.00257806381
+549,Train,PT KAI,Pucuk,Business,Lamongan,Yogyakarta,236.16326225674064,245609.79274701027
+550,Plane,Wings Air,Bandar Udara Iskandar,Suite,Kalimantan Tengah,Yogyakarta,786.2951946731149,1769164.1880145087
+551,Train,PT KAI,Jemursari,Business,Surabaya,Yogyakarta,273.8180533906966,284770.77552632446
+552,Train,PT KAI,Randu Blatung,Suite,Blora,Yogyakarta,160.53000515612763,192636.00618735317
+553,Train,PT KAI,Cicayur,Suite,Tangerang,Yogyakarta,457.6054446069322,549126.5335283186
+554,Train,PT KAI,Palur,Business,Karanganyar,Yogyakarta,87.02743185942376,90508.52913380071
+555,Train,PT KAI,Krenceng,Suite,Cilegon,Yogyakarta,523.5899966739782,628307.9960087739
+556,Bus,Budiman,nearest bus terminal,Business,Semarang,Yogyakarta,109.37687454139586,71094.96845190732
+557,Train,PT KAI,Sumber Gempol,Suite,Tulungagung,Yogyakarta,169.2547648272099,203105.7177926519
+558,Train,PT KAI,Brumbung,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+559,Plane,PT Trigana Air Service,Bandar Udara A.H. Nasution (Bandar Udara Bukit Malintang),Business,Sumatera Utara,Yogyakarta,1659.117501711117,3235279.1283366783
+560,Train,PT KAI,Cilegeh,Suite,Indramayu,Yogyakarta,848.6203775741213,1018344.4530889457
+561,Plane,Batik Air,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+562,Bus,Budiman,nearest bus terminal,Economic,Boyolali,Yogyakarta,75.14059220340893,37570.296101704465
+563,Train,PT KAI,Linggapura,Business,Tegal,Yogyakarta,170.24107027498275,177050.71308598205
+564,Plane,Wings Air,Bandar Udara Bobong,Suite,Maluku Utara,Yogyakarta,2173.4018230230486,4890154.101801859
+565,Plane,Wings Air,Bandar Udara D. C. Saundale d.h. Bandar Udara Lekunik,Economic,Bali,Yogyakarta,521.9825957538203,782973.8936307305
+566,Bus,Budiman,nearest bus terminal,Suite,Depok,Yogyakarta,428.9755164057098,321731.63730428234
+567,Train,PT KAI,Cilebut,Business,Bogor,Yogyakarta,422.78231889794927,439693.6116538673
+568,Train,PT KAI,Ngunut,Suite,Tulungagung,Yogyakarta,169.2547648272099,203105.7177926519
+569,Plane,NAM Air,Bandar Udara Depati Amir,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+570,Train,PT KAI,Sumberejo,Suite,Bojonegoro,Yogyakarta,179.96708290456277,215960.49948547533
+571,Plane,Wings Air,Bandar Udara Ahmad Yani,Suite,Jawa Barat,Yogyakarta,324.18707186347507,729420.9116928189
+572,Train,PT KAI,Doplang,Economic,Blora,Yogyakarta,160.53000515612763,128424.0041249021
+573,Plane,Lion Air,Bandar Udara Buli,Economic,Maluku,Yogyakarta,1987.6613976835763,2981492.0965253646
+574,Train,PT KAI,Walikukun,Business,Ngawi,Yogyakarta,127.1348515271285,132220.24558821364
+575,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,569967.0506640358
+576,Train,PT KAI,Citeras,Economic,Lebak,Yogyakarta,484.56524675423674,387652.1974033894
+577,Train,PT KAI,Tulangan,Business,Sidoarjo,Yogyakarta,259.52981703864833,269911.00972019427
+578,Bus,Budiman,nearest bus terminal,Economic,Batang,Yogyakarta,4355.101666817891,2177550.8334089452
+579,Train,PT KAI,Blitar,Economic,Blitar,Yogyakarta,198.62929149028835,158903.43319223067
+580,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Business,Karawang,Yogyakarta,385.72044969812714,250718.29230378265
+581,Train,PT KAI,Kemiri,Business,Karanganyar,Yogyakarta,87.02743185942376,90508.52913380071
+582,Plane,Garuda Indonesia,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Business,Kalimantan Tengah,Yogyakarta,786.2951946731149,1533275.6296125741
+583,Plane,Wings Air,Bandar Udara Internasional Hang Nadim,Suite,Sumatera Selatan,Yogyakarta,877.9380166727185,1975360.5375136165
+584,Train,PT KAI,Sukatani,Suite,Purwakarta,Yogyakarta,358.8393633433293,430607.2360119952
+585,Train,PT KAI,Klakah,Business,Lumajang,Yogyakarta,315.4223117768743,328039.2042479493
+586,Train,PT KAI,Pandanan,Business,Gresik,Yogyakarta,350.08148965766696,364084.74924397364
+587,Plane,Wings Air,Bandar Udara Arung Palakka,Business,Sulawesi Selatan,Yogyakarta,1163.9371824955651,2269677.505866352
+588,Train,PT KAI,Cikarang,Suite,Bekasi,Yogyakarta,419.4694344733886,503363.32136806636
+589,Plane,NAM Air,Bandar Udara Bolaang (Bandar Udara Loloda Mokoagow),Suite,Sulawesi Selatan,Yogyakarta,1163.9371824955651,2618858.6606150214
+590,Bus,Hiba,nearest bus terminal,Economic,Brebes,Yogyakarta,192.6946821360098,96347.3410680049
+591,Plane,PT Trigana Air Service,Unknown Airport,Economic,Gorontalo,Yogyakarta,1650.7274560911121,2476091.184136668
+592,Plane,Batik Air,Unknown Airport,Business,Gorontalo,Yogyakarta,1650.7274560911121,3218918.539377669
+593,Bus,Budiman,nearest bus terminal,Suite,Malang,Yogyakarta,249.9132515073408,187434.93863050558
+594,Plane,Lion Air,Bandar Udara Buli,Suite,Maluku Utara,Yogyakarta,2173.4018230230486,4890154.101801859
+595,Train,PT KAI,Parung Panjang,Suite,Bogor,Yogyakarta,422.78231889794927,507338.78267753916
+596,Train,PT KAI,Benowo,Business,Mojokerto,Yogyakarta,241.18707882277067,250834.5619756815
+597,Plane,Sriwijaya Air,Bandar Udara Mali,Economic,Sulawesi Tenggara,Yogyakarta,1349.952163038336,2024928.244557504
+598,Train,PT KAI,Leces,Business,Probolinggo,Yogyakarta,324.1913946350937,337159.0504204974
+599,Plane,NAM Air,Bandar Udara Internasional Minangkabau,Economic,Lampung,Yogyakarta,684.1841734461109,1026276.2601691664
+600,Train,PT KAI,Cikini,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+601,Train,PT KAI,Tarahan,Business,Bandar Lampung,Yogyakarta,629.7894061501536,654980.9823961598
+602,Plane,NAM Air,Bandar Udara Bintan Baru,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,2034427.2132654865
+603,Train,PT KAI,Lubuk Buaya,Economic,Padang,Yogyakarta,1356.2769455231717,1085021.5564185374
+604,Plane,Lion Air,Bandar Udara Juwata,Suite,Kalimantan Barat,Yogyakarta,871.3478269442726,1960532.6106246135
+605,Train,PT KAI,Ambarawa,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+606,Train,PT KAI,Rejo Tangan,Business,Tulungagung,Yogyakarta,169.2547648272099,176024.95542029833
+607,Bus,Dewi Sri,nearest bus terminal,Business,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,488784.67261831765
+608,Bus,Budiman,nearest bus terminal,Economic,Sulawesi Tengah,Yogyakarta,1350.2021561312324,675101.0780656162
+609,Plane,Lion Air,Bandar Udara Frans Sales Lega,Suite,Bali,Yogyakarta,521.9825957538203,1174460.8404460957
+610,Bus,Mayasari,nearest bus terminal,Suite,Ternate,Yogyakarta,11547.374859761849,8660531.144821387
+611,Plane,Lion Air,Bandar Udara H. Asan,Economic,Kalimantan Barat,Yogyakarta,871.3478269442726,1307021.740416409
+612,Bus,Nusantara,nearest bus terminal,Economic,Manado,Yogyakarta,1917.7790968103739,958889.548405187
+613,Train,PT KAI,Mojokerto,Business,Mojokerto,Yogyakarta,241.18707882277067,250834.5619756815
+614,Plane,PT Trigana Air Service,Bandar Udara Adisucipto,Economic,DKI Jakarta,Yogyakarta,438.967847019126,658451.770528689
+615,Plane,Garuda Indonesia,Bandar Udara Internasional Sam Ratulangi,Suite,Sulawesi Tengah,Yogyakarta,1350.2021561312324,3037954.851295273
+616,Train,PT KAI,Cimahi,Economic,Cimahi,Yogyakarta,334.9202108675686,267936.1686940549
+617,Plane,NAM Air,Bandar Udara Buli,Business,Maluku Utara,Yogyakarta,2173.4018230230486,4238133.554894945
+618,Plane,NAM Air,Bandar Udara Dabo,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,2100785.4222569684
+619,Bus,Hiba,nearest bus terminal,Business,Magetan,Yogyakarta,112.68790797419841,73247.14018322897
+620,Plane,Wings Air,Bandar Udara Frans Seda (Bandar Udara Wai Oti) (Bandar Udara Maumere),Business,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,2222871.49758974
+621,Train,PT KAI,Duduk,Business,Gresik,Yogyakarta,350.08148965766696,364084.74924397364
+622,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Kendal,Yogyakarta,12213.977221970157,6106988.610985079
+623,Bus,Mayasari,nearest bus terminal,Economic,Manado,Yogyakarta,1917.7790968103739,958889.548405187
+624,Train,PT KAI,Tanjung Priok,Economic,Jakarta Utara,Yogyakarta,433.7601399791081,347008.11198328645
+625,Train,PT KAI,Semarang Tawang,Economic,Semarang,Yogyakarta,109.37687454139586,87501.49963311669
+626,Bus,Haryanto,nearest bus terminal,Business,Mojokerto,Yogyakarta,241.18707882277067,156771.60123480094
+627,Plane,Lion Air,Bandar Udara Abdulrachman Saleh,Suite,Jawa Barat,Yogyakarta,324.18707186347507,729420.9116928189
+628,Bus,Haryanto,nearest bus terminal,Economic,Palembang,Yogyakarta,831.0533620962693,415526.6810481347
+629,Train,PT KAI,Ciganea,Suite,Purwakarta,Yogyakarta,358.8393633433293,430607.2360119952
+630,Bus,Budiman,nearest bus terminal,Economic,Kalimantan Barat,Yogyakarta,871.3478269442726,435673.9134721363
+631,Train,PT KAI,Ambarawa,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+632,Bus,Budiman,nearest bus terminal,Suite,Subang,Yogyakarta,1573.8721979387558,1180404.1484540668
+633,Plane,Citilink,Bandar Udara Adisucipto,Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+634,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Kepulauan Riau,Yogyakarta,1077.3258575676762,538662.928783838
+635,Bus,Rosalia Indah,nearest bus terminal,Economic,Wonogiri,Yogyakarta,65.1100266350096,32555.013317504803
+636,Train,PT KAI,Sumber Pucung,Economic,Malang,Yogyakarta,249.9132515073408,199930.60120587263
+637,Train,PT KAI,Kadipiro,Suite,Surakarta,Yogyakarta,68.04500135455822,81654.00162546987
+638,Train,PT KAI,Semarang Poncol,Business,Semarang,Yogyakarta,109.37687454139586,113751.9495230517
+639,Bus,Dewi Sri,nearest bus terminal,Suite,Gorontalo,Yogyakarta,1650.7274560911121,1238045.592068334
+640,Plane,Sriwijaya Air,Bandar Udara Iskandar,Suite,Kalimantan Tengah,Yogyakarta,786.2951946731149,1769164.1880145087
+641,Train,PT KAI,Cimahi,Business,Cimahi,Yogyakarta,334.9202108675686,348317.01930227136
+642,Train,PT KAI,Kemayoran,Suite,Jakarta Pusat,Yogyakarta,437.0517885095066,524462.1462114078
+643,Bus,Nusantara,nearest bus terminal,Business,Cilegon,Yogyakarta,523.5899966739782,340333.49783808587
+644,Train,PT KAI,Babat,Economic,Lamongan,Yogyakarta,236.16326225674064,188930.6098053925
+645,Plane,Garuda Indonesia,Bandar Udara Djalaluddin,Business,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2632894.2044559033
+646,Plane,Lion Air,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Economic,Jambi,Yogyakarta,1080.9267465522385,1621390.1198283576
+647,Train,PT KAI,Kiara Condong,Suite,Bandung,Yogyakarta,325.89770797152363,391077.24956582836
+648,Train,PT KAI,Tigaraksa,Suite,Tangerang,Yogyakarta,457.6054446069322,549126.5335283186
+649,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Pasuruan,Yogyakarta,282.6093643740866,141304.6821870433
+650,Plane,Lion Air,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Suite,Kalimantan Utara,Yogyakarta,1378.4708290615852,3101559.3653885666
+651,Plane,Lion Air,Bandar Udara Danau Toba,Business,Sumatera Barat,Yogyakarta,1356.2848088436576,2644755.3772451323
+652,Train,PT KAI,Gambir,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,349641.43080760527
+653,Bus,Mayasari,nearest bus terminal,Suite,Tasikmalaya,Yogyakarta,260.81634883719096,195612.2616278932
+654,Plane,Lion Air,Unknown Airport,Economic,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1099447.798338774
+655,Plane,PT Trigana Air Service,Bandar Udara Ahmad Yani,Business,Jawa Tengah,Yogyakarta,84.66775283966177,165102.11803734046
+656,Bus,Rosalia Indah,nearest bus terminal,Business,Jawa Barat,Yogyakarta,324.18707186347507,210721.5967112588
+657,Bus,Sinar Jaya,nearest bus terminal,Suite,Bekasi,Yogyakarta,419.4694344733886,314602.07585504145
+658,Plane,Lion Air,Bandar Udara Frans Sales Lega,Business,Bali,Yogyakarta,521.9825957538203,1017866.0617199496
+659,Plane,Wings Air,Bandar Udara Ahmad Yani,Economic,Jawa Timur,Yogyakarta,236.30849522541612,354462.74283812416
+660,Bus,Nusantara,nearest bus terminal,Business,Ngawi,Yogyakarta,127.1348515271285,82637.65349263353
+661,Plane,Sriwijaya Air,Bandar Udara Dabo,Economic,Aceh,Yogyakarta,2014.7223682251845,3022083.552337777
+662,Train,PT KAI,Sragi,Economic,Pekalongan,Yogyakarta,132.35837071355405,105886.69657084324
+663,Train,PT KAI,Nganjuk,Business,Nganjuk,Yogyakarta,178.75205838611703,185902.1407215617
+664,Bus,Mayasari,nearest bus terminal,Suite,Banjar,Yogyakarta,732.5899586046614,549442.4689534961
+665,Bus,Mayasari,nearest bus terminal,Business,Demak,Yogyakarta,120.35665720273047,78231.82718177482
+666,Bus,Mayasari,nearest bus terminal,Economic,Jakarta Pusat,Yogyakarta,437.0517885095066,218525.8942547533
+667,Train,PT KAI,Kretek,Economic,Tegal,Yogyakarta,170.24107027498275,136192.8562199862
+668,Plane,PT Trigana Air Service,Bandar Udara Danau Toba,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,2100785.4222569684
+669,Train,PT KAI,Sembung,Suite,Jombang,Yogyakarta,211.7850913076902,254142.10956922825
+670,Plane,Citilink,Bandar Udara Juwata,Suite,Kalimantan Utara,Yogyakarta,1378.4708290615852,3101559.3653885666
+671,Train,PT KAI,Solo Jebres,Economic,Surakarta,Yogyakarta,68.04500135455822,54436.00108364658
+672,Plane,Sriwijaya Air,Bandar Udara Iskandar,Economic,Kalimantan Timur,Yogyakarta,1168.2805011804724,1752420.7517707085
+673,Train,PT KAI,Gawok,Suite,Sragen,Yogyakarta,91.47727523446306,109772.73028135567
+674,Bus,Mayasari,nearest bus terminal,Business,Lampung,Yogyakarta,684.1841734461109,444719.7127399721
+675,Train,PT KAI,Semarang Tawang,Economic,Semarang,Yogyakarta,109.37687454139586,87501.49963311669
+676,Plane,Citilink,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Economic,Jambi,Yogyakarta,1080.9267465522385,1621390.1198283576
+677,Train,PT KAI,Kasugihan,Suite,Banjar,Yogyakarta,732.5899586046614,879107.9503255936
+678,Train,PT KAI,Curahmalang,Business,Jombang,Yogyakarta,211.7850913076902,220256.49495999783
+679,Train,PT KAI,Cicurug,Suite,Sukabumi,Yogyakarta,413.1162545173275,495739.50542079296
+680,Bus,Nusantara,nearest bus terminal,Business,Banten,Yogyakarta,496.92179636711603,322999.1676386254
+681,Train,PT KAI,Klakah,Business,Lumajang,Yogyakarta,315.4223117768743,328039.2042479493
+682,Bus,Sinar Jaya,nearest bus terminal,Business,Jakarta Selatan,Yogyakarta,435.818905534949,283282.2885977169
+683,Bus,Budiman,nearest bus terminal,Economic,Indramayu,Yogyakarta,848.6203775741213,424310.1887870607
+684,Train,PT KAI,Palmerah,Suite,Jakarta Pusat,Yogyakarta,437.0517885095066,524462.1462114078
+685,Train,PT KAI,Madiun,Suite,Madiun,Yogyakarta,149.62256665123383,179547.0799814806
+686,Train,PT KAI,Sragi,Business,Pekalongan,Yogyakarta,132.35837071355405,137652.70554209623
+687,Plane,Garuda Indonesia,Bandar Udara Blangkejeren (Bandar Udara Gayo Lues) (Bandar Udara Senubung),Economic,Aceh,Yogyakarta,2014.7223682251845,3022083.552337777
+688,Train,PT KAI,Indihiang,Economic,Tasikmalaya,Yogyakarta,260.81634883719096,208653.07906975277
+689,Bus,Haryanto,nearest bus terminal,Suite,Sidoarjo,Yogyakarta,259.52981703864833,194647.36277898625
+690,Train,PT KAI,Pandanan,Economic,Gresik,Yogyakarta,350.08148965766696,280065.1917261336
+691,Plane,NAM Air,Bandar Udara Bolaang (Bandar Udara Loloda Mokoagow),Economic,Sulawesi Utara,Yogyakarta,1797.54188318467,2696312.8247770052
+692,Train,PT KAI,Plered,Business,Purwakarta,Yogyakarta,358.8393633433293,373192.9378770625
+693,Plane,Batik Air,Bandar Udara Ferdinand Lumban Tobing (Bandar Udara Pinangsori),Economic,Lampung,Yogyakarta,684.1841734461109,1026276.2601691664
+694,Plane,Citilink,Bandar Udara Adisucipto,Business,DKI Jakarta,Yogyakarta,438.967847019126,855987.3016872958
+695,Train,PT KAI,Lubuk Buaya,Suite,Padang,Yogyakarta,1356.2769455231717,1627532.3346278062
+696,Bus,Haryanto,nearest bus terminal,Economic,Gresik,Yogyakarta,350.08148965766696,175040.74482883347
+697,Plane,PT Trigana Air Service,Bandar Udara Andi Jemma,Suite,Sulawesi Selatan,Yogyakarta,1163.9371824955651,2618858.6606150214
+698,Train,PT KAI,Telagasari,Suite,Indramayu,Yogyakarta,848.6203775741213,1018344.4530889457
+699,Train,PT KAI,Cirahayu,Economic,Tasikmalaya,Yogyakarta,260.81634883719096,208653.07906975277
+700,Bus,Budiman,nearest bus terminal,Economic,Cilegon,Yogyakarta,523.5899966739782,261794.9983369891
+701,Plane,NAM Air,Bandar Udara Dabo,Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+702,Plane,Batik Air,Bandar Udara Bolaang (Bandar Udara Loloda Mokoagow),Economic,Sulawesi Utara,Yogyakarta,1797.54188318467,2696312.8247770052
+703,Train,PT KAI,Brebes,Business,Brebes,Yogyakarta,192.6946821360098,200402.4694214502
+704,Train,PT KAI,Tuban,Business,Tuban,Yogyakarta,222.337926911915,231231.44398839158
+705,Bus,Mayasari,nearest bus terminal,Economic,Maluku Utara,Yogyakarta,2173.4018230230486,1086700.9115115243
+706,Bus,Mayasari,nearest bus terminal,Suite,Bojonegoro,Yogyakarta,179.96708290456277,134975.31217842206
+707,Plane,Wings Air,Bandar Udara Abdulrachman Saleh,Economic,DKI Jakarta,Yogyakarta,438.967847019126,658451.770528689
+708,Plane,Lion Air,Unknown Airport,Economic,Gorontalo,Yogyakarta,1650.7274560911121,2476091.184136668
+709,Train,PT KAI,Jambu Baru,Suite,Serang,Yogyakarta,526.216155379768,631459.3864557217
+710,Plane,Batik Air,Bandar Udara Fatmawati Soekarno,Suite,Sumatera Selatan,Yogyakarta,877.9380166727185,1975360.5375136165
+711,Bus,Nusantara,nearest bus terminal,Business,Pemalang,Yogyakarta,151.76148119190498,98644.96277473825
+712,Bus,Budiman,nearest bus terminal,Suite,Karawang,Yogyakarta,385.72044969812714,289290.3372735954
+713,Train,PT KAI,Tuban,Business,Tuban,Yogyakarta,222.337926911915,231231.44398839158
+714,Bus,Dewi Sri,nearest bus terminal,Suite,Klaten,Yogyakarta,44.33509515234492,33251.32136425869
+715,Bus,Lorena,nearest bus terminal,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,678142.4044218288
+716,Bus,Haryanto,nearest bus terminal,Business,Cilegon,Yogyakarta,523.5899966739782,340333.49783808587
+717,Bus,Dewi Sri,nearest bus terminal,Business,Batam,Yogyakarta,1225.5223093146765,796589.5010545398
+718,Train,PT KAI,Cimahi,Business,Cimahi,Yogyakarta,334.9202108675686,348317.01930227136
+719,Train,PT KAI,Karawang,Economic,Karawang,Yogyakarta,385.72044969812714,308576.3597585017
+720,Plane,Wings Air,Bandar Udara Internasional Sam Ratulangi,Economic,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2025303.2341968487
+721,Bus,Nusantara,nearest bus terminal,Economic,Magetan,Yogyakarta,112.68790797419841,56343.95398709921
+722,Plane,Lion Air,Bandar Udara H.A.S. Hanandjoeddin d.h. Bandar Udara Buluh Tumbang,Economic,Bengkulu,Yogyakarta,997.5854283886057,1496378.1425829085
+723,Train,PT KAI,Purwosari,Economic,Surakarta,Yogyakarta,68.04500135455822,54436.00108364658
+724,Train,PT KAI,Duduk,Business,Gresik,Yogyakarta,350.08148965766696,364084.74924397364
+725,Train,PT KAI,Kepanjen,Economic,Malang,Yogyakarta,249.9132515073408,199930.60120587263
+726,Train,PT KAI,Ambarawa,Business,Demak,Yogyakarta,120.35665720273047,125170.9234908397
+727,Train,PT KAI,Garum,Economic,Blitar,Yogyakarta,198.62929149028835,158903.43319223067
+728,Train,PT KAI,Lampegan,Suite,Cianjur,Yogyakarta,378.0621762662139,453674.6115194566
+729,Train,PT KAI,Cakung,Business,Jakarta Timur,Yogyakarta,429.14406523784896,446309.82784736296
+730,Bus,Dewi Sri,nearest bus terminal,Suite,Brebes,Yogyakarta,192.6946821360098,144521.01160200735
+731,Plane,Wings Air,Bandar Udara Abdulrachman Saleh,Business,Jawa Tengah,Yogyakarta,84.66775283966177,165102.11803734046
+732,Train,PT KAI,Semarang Poncol,Suite,Semarang,Yogyakarta,109.37687454139586,131252.24944967503
+733,Bus,Nusantara,nearest bus terminal,Economic,Kalimantan Tengah,Yogyakarta,786.2951946731149,393147.59733655746
+734,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Lampung,Yogyakarta,684.1841734461109,342092.08672305546
+735,Plane,NAM Air,Bandar Udara Internasional Kualanamu,Economic,Sumatera Selatan,Yogyakarta,877.9380166727185,1316907.0250090777
+736,Train,PT KAI,Kedung Jati,Business,Boyolali,Yogyakarta,75.14059220340893,78146.21589154529
+737,Plane,Garuda Indonesia,Bandar Udara Juwata,Suite,Kalimantan Utara,Yogyakarta,1378.4708290615852,3101559.3653885666
+738,Train,PT KAI,Cimahi,Economic,Cimahi,Yogyakarta,334.9202108675686,267936.1686940549
+739,Bus,Sinar Jaya,nearest bus terminal,Suite,Tarakan,Yogyakarta,1485.351188920733,1114013.39169055
+740,Bus,Haryanto,nearest bus terminal,Suite,Balikpapan,Yogyakarta,1036.1041341055677,777078.1005791757
+741,Bus,Haryanto,nearest bus terminal,Economic,Batang,Yogyakarta,4355.101666817891,2177550.8334089452
+742,Bus,Nusantara,nearest bus terminal,Economic,Serang,Yogyakarta,526.216155379768,263108.077689884
+743,Plane,Sriwijaya Air,Bandar Udara Binuang,Suite,Kalimantan Selatan,Yogyakarta,786.7319481865729,1770146.8834197891
+744,Train,PT KAI,Plered,Economic,Purwakarta,Yogyakarta,358.8393633433293,287071.49067466345
+745,Train,PT KAI,Ngadiluwih,Economic,Kediri,Yogyakarta,181.49519008042117,145196.15206433693
+746,Plane,Lion Air,Bandar Udara Fatmawati Soekarno,Economic,Jambi,Yogyakarta,1080.9267465522385,1621390.1198283576
+747,Train,PT KAI,Barat,Business,Magetan,Yogyakarta,112.68790797419841,117195.42429316635
+748,Bus,Mayasari,nearest bus terminal,Suite,Boyolali,Yogyakarta,75.14059220340893,56355.444152556694
+749,Train,PT KAI,Ketanggungan,Suite,Brebes,Yogyakarta,192.6946821360098,231233.61856321176
+750,Bus,Nusantara,nearest bus terminal,Business,Makassar,Yogyakarta,1048.5138765246138,681534.019740999
+751,Plane,Garuda Indonesia,Bandar Udara Alas Leuser,Suite,Aceh,Yogyakarta,2014.7223682251845,4533125.328506665
+752,Train,PT KAI,Lampegan,Economic,Cianjur,Yogyakarta,378.0621762662139,302449.7410129711
+753,Plane,Wings Air,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+754,Train,PT KAI,Ranuyoso,Economic,Lumajang,Yogyakarta,315.4223117768743,252337.84942149947
+755,Bus,Budiman,nearest bus terminal,Business,Magetan,Yogyakarta,112.68790797419841,73247.14018322897
+756,Plane,Batik Air,Unknown Airport,Economic,Banten,Yogyakarta,496.92179636711603,745382.6945506741
+757,Train,PT KAI,Mojokerto,Suite,Mojokerto,Yogyakarta,241.18707882277067,289424.4945873248
+758,Bus,Hiba,nearest bus terminal,Suite,Sulawesi Barat,Yogyakarta,1169.3609574565219,877020.7180923915
+759,Plane,Garuda Indonesia,Bandar Udara Haluoleo (Bandar Udara Wolter Monginsidi),Suite,Sulawesi Utara,Yogyakarta,1797.54188318467,4044469.237165508
+760,Plane,Lion Air,Bandar Udara Depati Amir,Business,Sumatera Barat,Yogyakarta,1356.2848088436576,2644755.3772451323
+761,Train,PT KAI,Purwoasri,Business,Kediri,Yogyakarta,181.49519008042117,188754.997683638
+762,Train,PT KAI,Kedungbanteng,Suite,Sragen,Yogyakarta,91.47727523446306,109772.73028135567
+763,Train,PT KAI,Tarahan,Economic,Bandar Lampung,Yogyakarta,629.7894061501536,503831.5249201229
+764,Bus,Rosalia Indah,nearest bus terminal,Business,Lampung,Yogyakarta,684.1841734461109,444719.7127399721
+765,Train,PT KAI,Wonokerto,Suite,Pasuruan,Yogyakarta,282.6093643740866,339131.23724890396
+766,Plane,Garuda Indonesia,Bandar Udara Fatmawati Soekarno,Suite,Jambi,Yogyakarta,1080.9267465522385,2432085.1797425365
+767,Plane,PT Trigana Air Service,Bandar Udara Ngloram (Bandar Udara Blora),Business,Jawa Tengah,Yogyakarta,84.66775283966177,165102.11803734046
+768,Train,PT KAI,Singojuruh,Business,Banyuwangi,Yogyakarta,417.7821639876958,434493.45054720365
+769,Train,PT KAI,Luwung,Business,Cirebon,Yogyakarta,243.56079565615678,253303.22748240305
+770,Plane,Garuda Indonesia,Bandar Udara Bali Baru,Economic,Bali,Yogyakarta,521.9825957538203,782973.8936307305
+771,Bus,Budiman,nearest bus terminal,Economic,Ciamis,Yogyakarta,228.653627845652,114326.81392282601
+772,Train,PT KAI,Pagaden Baru,Suite,Subang,Yogyakarta,1573.8721979387558,1888646.637526507
+773,Train,PT KAI,Maswati,Business,Bandung Barat,Yogyakarta,347.3558014760002,361250.0335350402
+774,Plane,Lion Air,Bandar Udara Blangkejeren (Bandar Udara Gayo Lues) (Bandar Udara Senubung),Economic,Aceh,Yogyakarta,2014.7223682251845,3022083.552337777
+775,Train,PT KAI,Ngagel,Business,Surabaya,Yogyakarta,273.8180533906966,284770.77552632446
+776,Bus,Nusantara,nearest bus terminal,Suite,Tanjung Pinang,Yogyakarta,1400.5854705969123,1050439.1029476842
+777,Plane,Wings Air,Bandar Udara Frans Sales Lega,Economic,Bali,Yogyakarta,521.9825957538203,782973.8936307305
+778,Train,PT KAI,Cikarang,Economic,Bekasi,Yogyakarta,419.4694344733886,335575.5475787109
+779,Plane,Citilink,Bandar Udara Binaka,Economic,Riau,Yogyakarta,1355.379546339091,2033069.3195086364
+780,Train,PT KAI,Lubuk Buaya,Suite,Padang,Yogyakarta,1356.2769455231717,1627532.3346278062
+781,Train,PT KAI,Merak,Business,Cilegon,Yogyakarta,523.5899966739782,544533.5965409374
+782,Train,PT KAI,Buaran,Economic,Jakarta Timur,Yogyakarta,429.14406523784896,343315.2521902792
+783,Bus,Dewi Sri,nearest bus terminal,Suite,Kalimantan Barat,Yogyakarta,871.3478269442726,653510.8702082045
+784,Bus,Mayasari,nearest bus terminal,Business,Manado,Yogyakarta,1917.7790968103739,1246556.412926743
+785,Plane,Batik Air,Bandar Udara Internasional Hang Nadim,Suite,Lampung,Yogyakarta,684.1841734461109,1539414.3902537497
+786,Train,PT KAI,Karangpucung,Business,Banjar,Yogyakarta,732.5899586046614,761893.5569488478
+787,Train,PT KAI,Cimahi,Suite,Cimahi,Yogyakarta,334.9202108675686,401904.2530410823
+788,Bus,Hiba,nearest bus terminal,Business,Banyuwangi,Yogyakarta,417.7821639876958,271558.4065920023
+789,Train,PT KAI,Cipunegara,Economic,Subang,Yogyakarta,1573.8721979387558,1259097.7583510047
+790,Bus,Haryanto,nearest bus terminal,Business,Mojokerto,Yogyakarta,241.18707882277067,156771.60123480094
+791,Train,PT KAI,Pondok Cina,Suite,Depok,Yogyakarta,428.9755164057098,514770.61968685174
+792,Plane,Garuda Indonesia,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+793,Train,PT KAI,Cikarang,Business,Bekasi,Yogyakarta,419.4694344733886,436248.2118523242
+794,Train,PT KAI,Karang Asem (Banyuwangi Kota),Economic,Banyuwangi,Yogyakarta,417.7821639876958,334225.73119015666
+795,Bus,Sinar Jaya,nearest bus terminal,Economic,Blora,Yogyakarta,160.53000515612763,80265.00257806381
+796,Train,PT KAI,Kramat,Business,Jakarta Pusat,Yogyakarta,437.0517885095066,454533.86004988686
+797,Train,PT KAI,Palur,Business,Karanganyar,Yogyakarta,87.02743185942376,90508.52913380071
+798,Bus,Dewi Sri,nearest bus terminal,Suite,Brebes,Yogyakarta,192.6946821360098,144521.01160200735
+799,Plane,Garuda Indonesia,Bandar Udara Binaka,Economic,Kepulauan Riau,Yogyakarta,1077.3258575676762,1615988.7863515143
+800,Plane,PT Trigana Air Service,Bandar Udara Ngloram (Bandar Udara Blora),Business,Jawa Barat,Yogyakarta,324.18707186347507,632164.7901337764
+801,Bus,Hiba,nearest bus terminal,Economic,Manado,Yogyakarta,1917.7790968103739,958889.548405187
+802,Bus,Haryanto,nearest bus terminal,Business,Sidoarjo,Yogyakarta,259.52981703864833,168694.3810751214
+803,Bus,Sinar Jaya,nearest bus terminal,Business,Jambi,Yogyakarta,1080.9267465522385,702602.3852589551
+804,Bus,Hiba,nearest bus terminal,Economic,DKI Jakarta,Yogyakarta,438.967847019126,219483.923509563
+805,Bus,Lorena,nearest bus terminal,Business,Jambi,Yogyakarta,1080.9267465522385,702602.3852589551
+806,Plane,NAM Air,Bandar Udara Fatmawati Soekarno,Business,Jambi,Yogyakarta,1080.9267465522385,2107807.155776865
+807,Plane,PT Trigana Air Service,Bandar Udara Juwata,Suite,Kalimantan Tengah,Yogyakarta,786.2951946731149,1769164.1880145087
+808,Bus,Haryanto,nearest bus terminal,Business,Ternate,Yogyakarta,11547.374859761849,7505793.658845202
+809,Train,PT KAI,Cilebut,Business,Bogor,Yogyakarta,422.78231889794927,439693.6116538673
+810,Bus,Lorena,nearest bus terminal,Business,Jakarta Selatan,Yogyakarta,435.818905534949,283282.2885977169
+811,Train,PT KAI,Songgom,Suite,Brebes,Yogyakarta,192.6946821360098,231233.61856321176
+812,Bus,Hiba,nearest bus terminal,Economic,Jombang,Yogyakarta,211.7850913076902,105892.54565384511
+813,Bus,Haryanto,nearest bus terminal,Suite,Wonogiri,Yogyakarta,65.1100266350096,48832.5199762572
+814,Plane,Sriwijaya Air,Unknown Airport,Suite,Gorontalo,Yogyakarta,1650.7274560911121,3714136.7762050023
+815,Train,PT KAI,Peterongan,Economic,Jombang,Yogyakarta,211.7850913076902,169428.07304615216
+816,Train,PT KAI,Randegan,Suite,Banjar,Yogyakarta,732.5899586046614,879107.9503255936
+817,Plane,Batik Air,Bandar Udara Frans Sales Lega,Economic,Bali,Yogyakarta,521.9825957538203,782973.8936307305
+818,Plane,Batik Air,Bandar Udara Lunyuk,Suite,Sulawesi Barat,Yogyakarta,1169.3609574565219,2631062.1542771743
+819,Plane,NAM Air,Bandar Udara Enggano,Economic,Jambi,Yogyakarta,1080.9267465522385,1621390.1198283576
+820,Plane,Sriwijaya Air,Bandar Udara Dabo,Business,Aceh,Yogyakarta,2014.7223682251845,3928708.61803911
+821,Train,PT KAI,Sukorejo,Suite,Pasuruan,Yogyakarta,282.6093643740866,339131.23724890396
+822,Train,PT KAI,Buaran,Suite,Jakarta Timur,Yogyakarta,429.14406523784896,514972.8782854188
+823,Bus,Budiman,nearest bus terminal,Suite,Tulungagung,Yogyakarta,169.2547648272099,126941.07362040743
+824,Bus,Dewi Sri,nearest bus terminal,Suite,Wonogiri,Yogyakarta,65.1100266350096,48832.5199762572
+825,Plane,PT Trigana Air Service,Pangkalan Udara Soewondo d.h. Bandar Udara Polonia,Business,DKI Jakarta,Yogyakarta,438.967847019126,855987.3016872958
+826,Plane,PT Trigana Air Service,Bandar Udara Juwata,Suite,Kalimantan Tengah,Yogyakarta,786.2951946731149,1769164.1880145087
+827,Plane,Sriwijaya Air,Bandar Udara Depati Parbo,Business,Sumatera Barat,Yogyakarta,1356.2848088436576,2644755.3772451323
+828,Bus,Lorena,nearest bus terminal,Business,Cirebon,Yogyakarta,243.56079565615678,158314.51717650192
+829,Bus,Haryanto,nearest bus terminal,Business,Depok,Yogyakarta,428.9755164057098,278834.08566371136
+830,Bus,Rosalia Indah,nearest bus terminal,Business,Purworejo,Yogyakarta,53.36856175856877,34689.565143069696
+831,Bus,Rosalia Indah,nearest bus terminal,Economic,Kendari,Yogyakarta,1415.3805831726015,707690.2915863007
+832,Bus,Dewi Sri,nearest bus terminal,Economic,Wonogiri,Yogyakarta,65.1100266350096,32555.013317504803
+833,Bus,Rosalia Indah,nearest bus terminal,Suite,Kalimantan Barat,Yogyakarta,871.3478269442726,653510.8702082045
+834,Bus,Sinar Jaya,nearest bus terminal,Economic,Banjar,Yogyakarta,732.5899586046614,366294.9793023307
+835,Plane,Lion Air,Bandar Udara Bali Baru,Economic,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,1709901.1519921075
+836,Plane,NAM Air,Bandar Udara Abdulrachman Saleh,Suite,DKI Jakarta,Yogyakarta,438.967847019126,987677.6557930335
+837,Plane,Citilink,Bandar Udara Benjina,Suite,Maluku,Yogyakarta,1987.6613976835763,4472238.144788047
+838,Plane,NAM Air,Bandar Udara H.A.S. Hanandjoeddin d.h. Bandar Udara Buluh Tumbang,Suite,Sumatera Selatan,Yogyakarta,877.9380166727185,1975360.5375136165
+839,Bus,Rosalia Indah,nearest bus terminal,Economic,Mataram,Yogyakarta,635.8472587039132,317923.6293519566
+840,Train,PT KAI,Leces,Economic,Probolinggo,Yogyakarta,324.1913946350937,259353.11570807494
+841,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Jember,Yogyakarta,368.1953643126563,276146.5232344922
+842,Train,PT KAI,Brumbung,Business,Demak,Yogyakarta,120.35665720273047,125170.9234908397
+843,Plane,Citilink,Bandar Udara Arung Palakka,Suite,Sulawesi Selatan,Yogyakarta,1163.9371824955651,2618858.6606150214
+844,Bus,Sinar Jaya,nearest bus terminal,Business,Grobogan,Yogyakarta,113.49164077468595,73769.56650354587
+845,Plane,NAM Air,Bandar Udara Bireuen,Business,Aceh,Yogyakarta,2014.7223682251845,3928708.61803911
+846,Bus,Lorena,nearest bus terminal,Suite,Gresik,Yogyakarta,350.08148965766696,262561.1172432502
+847,Plane,Wings Air,Bandar Udara Pantar (Bandar Udara Kabir),Suite,Sulawesi Barat,Yogyakarta,1169.3609574565219,2631062.1542771743
+848,Train,PT KAI,Wonokromo,Suite,Surabaya,Yogyakarta,273.8180533906966,328581.6640688359
+849,Train,PT KAI,Sepanjang,Economic,Sidoarjo,Yogyakarta,259.52981703864833,207623.85363091866
+850,Train,PT KAI,Sumlaran,Business,Lamongan,Yogyakarta,236.16326225674064,245609.79274701027
+851,Bus,Nusantara,nearest bus terminal,Economic,Jakarta Barat,Yogyakarta,447.8533791485487,223926.68957427435
+852,Train,PT KAI,Kruwul,Economic,Lamongan,Yogyakarta,236.16326225674064,188930.6098053925
+853,Bus,Rosalia Indah,nearest bus terminal,Suite,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,854950.5759960538
+854,Train,PT KAI,Andir,Economic,Bandung,Yogyakarta,325.89770797152363,260718.1663772189
+855,Train,PT KAI,Indro,Suite,Gresik,Yogyakarta,350.08148965766696,420097.78758920036
+856,Bus,Budiman,nearest bus terminal,Business,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,740957.1658632467
+857,Bus,Rosalia Indah,nearest bus terminal,Suite,Jawa Barat,Yogyakarta,324.18707186347507,243140.30389760633
+858,Train,PT KAI,Cicurug,Economic,Sukabumi,Yogyakarta,413.1162545173275,330493.003613862
+859,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Tulungagung,Yogyakarta,169.2547648272099,84627.38241360495
+860,Train,PT KAI,Duren Kalibata,Suite,Jakarta Selatan,Yogyakarta,435.818905534949,522982.6866419388
+861,Bus,Lorena,nearest bus terminal,Suite,Balikpapan,Yogyakarta,1036.1041341055677,777078.1005791757
+862,Plane,PT Trigana Air Service,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Economic,Kalimantan Timur,Yogyakarta,1168.2805011804724,1752420.7517707085
+863,Plane,Lion Air,Bandar Udara Fatmawati Soekarno,Business,Sumatera Selatan,Yogyakarta,877.9380166727185,1711979.132511801
+864,Plane,PT Trigana Air Service,Bandar Udara Banyuwangi d.h. Bandar Udara Blimbingsari,Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+865,Plane,NAM Air,Bandar Udara Bintan Baru,Suite,Sumatera Barat,Yogyakarta,1356.2848088436576,3051640.81989823
+866,Plane,Sriwijaya Air,Bandar Udara Alas Leuser,Business,Aceh,Yogyakarta,2014.7223682251845,3928708.61803911
+867,Train,PT KAI,Cikoya,Economic,Tangerang,Yogyakarta,457.6054446069322,366084.3556855458
+868,Plane,Citilink,Unknown Airport,Suite,Gorontalo,Yogyakarta,1650.7274560911121,3714136.7762050023
+869,Plane,Batik Air,Bandar Udara Djalaluddin,Economic,Sulawesi Utara,Yogyakarta,1797.54188318467,2696312.8247770052
+870,Plane,Citilink,Bandar Udara Depati Amir,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,2034427.2132654865
+871,Plane,Batik Air,Unknown Airport,Business,Banten,Yogyakarta,496.92179636711603,968997.5029158763
+872,Bus,Nusantara,nearest bus terminal,Suite,Kalimantan Timur,Yogyakarta,1168.2805011804724,876210.3758853542
+873,Train,PT KAI,Porong,Suite,Sidoarjo,Yogyakarta,259.52981703864833,311435.780446378
+874,Plane,Garuda Indonesia,Bandar Udara Bintan Baru,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,2100785.4222569684
+875,Plane,Batik Air,Bandar Udara Dabo,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,2034427.2132654865
+876,Plane,Garuda Indonesia,Bandar Udara Danau Toba,Economic,Riau,Yogyakarta,1355.379546339091,2033069.3195086364
+877,Train,PT KAI,Sembung,Economic,Jombang,Yogyakarta,211.7850913076902,169428.07304615216
+878,Bus,Dewi Sri,nearest bus terminal,Economic,Malang,Yogyakarta,249.9132515073408,124956.62575367039
+879,Train,PT KAI,Sumber Pucung,Suite,Malang,Yogyakarta,249.9132515073408,299895.90180880897
+880,Bus,Hiba,nearest bus terminal,Suite,Ternate,Yogyakarta,11547.374859761849,8660531.144821387
+881,Plane,Wings Air,Bandar Udara Aek Godang,Business,Sumatera Utara,Yogyakarta,1659.117501711117,3235279.1283366783
+882,Plane,Lion Air,Bandar Udara Frans Sales Lega,Business,Bali,Yogyakarta,521.9825957538203,1017866.0617199496
+883,Train,PT KAI,Gawok,Suite,Sragen,Yogyakarta,91.47727523446306,109772.73028135567
+884,Train,PT KAI,Cikarang,Suite,Bekasi,Yogyakarta,419.4694344733886,503363.32136806636
+885,Bus,Nusantara,nearest bus terminal,Economic,Kalimantan Selatan,Yogyakarta,786.7319481865729,393365.9740932865
+886,Bus,Mayasari,nearest bus terminal,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,678142.4044218288
+887,Train,PT KAI,Lampegan,Business,Cianjur,Yogyakarta,378.0621762662139,393184.6633168624
+888,Bus,Mayasari,nearest bus terminal,Suite,Bali,Yogyakarta,521.9825957538203,391486.9468153652
+889,Train,PT KAI,Leuwigoong,Business,Bandung,Yogyakarta,325.89770797152363,338933.6162903846
+890,Bus,Sinar Jaya,nearest bus terminal,Suite,Cimahi,Yogyakarta,334.9202108675686,251190.1581506764
+891,Train,PT KAI,Pasirbungur,Economic,Subang,Yogyakarta,1573.8721979387558,1259097.7583510047
+892,Train,PT KAI,Universitas Indonesia,Business,Depok,Yogyakarta,428.9755164057098,446134.5370619382
+893,Train,PT KAI,Sumobito,Business,Jombang,Yogyakarta,211.7850913076902,220256.49495999783
+894,Bus,Sinar Jaya,nearest bus terminal,Suite,Klaten,Yogyakarta,44.33509515234492,33251.32136425869
+895,Bus,Mayasari,nearest bus terminal,Economic,Lumajang,Yogyakarta,315.4223117768743,157711.15588843715
+896,Bus,Dewi Sri,nearest bus terminal,Business,Solo,Yogyakarta,68.04500135455822,44229.250880462845
+897,Train,PT KAI,Cikarang,Economic,Bekasi,Yogyakarta,419.4694344733886,335575.5475787109
+898,Bus,Haryanto,nearest bus terminal,Business,Medan,Yogyakarta,1822.7420375533572,1184782.3244096823
+899,Bus,Nusantara,nearest bus terminal,Economic,Purworejo,Yogyakarta,53.36856175856877,26684.280879284383
+900,Train,PT KAI,Gembong,Suite,Lamongan,Yogyakarta,236.16326225674064,283395.91470808873
+901,Plane,NAM Air,Bandar Udara Haluoleo (Bandar Udara Wolter Monginsidi),Business,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2632894.2044559033
+902,Train,PT KAI,Padalarang,Business,Bandung Barat,Yogyakarta,347.3558014760002,361250.0335350402
+903,Bus,Hiba,nearest bus terminal,Economic,Serang,Yogyakarta,526.216155379768,263108.077689884
+904,Train,PT KAI,Cikarang,Economic,Bekasi,Yogyakarta,419.4694344733886,335575.5475787109
+905,Plane,Lion Air,Bandar Udara Pantar (Bandar Udara Kabir),Business,Sulawesi Barat,Yogyakarta,1169.3609574565219,2280253.867040218
+906,Train,PT KAI,Pakisaji,Suite,Malang,Yogyakarta,249.9132515073408,299895.90180880897
+907,Bus,Rosalia Indah,nearest bus terminal,Economic,Balikpapan,Yogyakarta,1036.1041341055677,518052.06705278385
+908,Plane,Batik Air,Bandar Udara Internasional Minangkabau,Economic,Lampung,Yogyakarta,684.1841734461109,1026276.2601691664
+909,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,Subang,Yogyakarta,1573.8721979387558,786936.0989693779
+910,Plane,Garuda Indonesia,Bandar Udara Komodo,Business,Sulawesi Barat,Yogyakarta,1169.3609574565219,2280253.867040218
+911,Plane,Lion Air,Unknown Airport,Business,Gorontalo,Yogyakarta,1650.7274560911121,3218918.539377669
+912,Train,PT KAI,Cicurug,Business,Sukabumi,Yogyakarta,413.1162545173275,429640.9046980206
+913,Train,PT KAI,Duren Kalibata,Business,Jakarta Selatan,Yogyakarta,435.818905534949,453251.661756347
+914,Bus,Rosalia Indah,nearest bus terminal,Suite,Madiun,Yogyakarta,149.62256665123383,112216.92498842537
+915,Train,PT KAI,Benteng,Suite,Surabaya,Yogyakarta,273.8180533906966,328581.6640688359
+916,Train,PT KAI,Tulungagung,Business,Tulungagung,Yogyakarta,169.2547648272099,176024.95542029833
+917,Plane,Sriwijaya Air,Unknown Airport,Suite,Banten,Yogyakarta,496.92179636711603,1118074.0418260111
+918,Train,PT KAI,Cimahi,Economic,Cimahi,Yogyakarta,334.9202108675686,267936.1686940549
+919,Plane,Lion Air,Bandar Udara Depati Parbo,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,2034427.2132654865
+920,Plane,Garuda Indonesia,Bandar Udara Depati Amir,Economic,Sumatera Barat,Yogyakarta,1356.2848088436576,2034427.2132654865
+921,Plane,Wings Air,Bandar Udara Dabo,Business,Kepulauan Riau,Yogyakarta,1077.3258575676762,2100785.4222569684
+922,Bus,Nusantara,nearest bus terminal,Economic,Mataram,Yogyakarta,635.8472587039132,317923.6293519566
+923,Bus,Hiba,nearest bus terminal,Suite,Pasuruan,Yogyakarta,282.6093643740866,211957.02328056496
+924,Bus,Lorena,nearest bus terminal,Business,Magetan,Yogyakarta,112.68790797419841,73247.14018322897
+925,Plane,PT Trigana Air Service,Bandar Udara Banyuwangi d.h. Bandar Udara Blimbingsari,Suite,Jawa Timur,Yogyakarta,236.30849522541612,531694.1142571862
+926,Bus,Sinar Jaya,nearest bus terminal,Economic,Bekasi,Yogyakarta,419.4694344733886,209734.7172366943
+927,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Economic,DKI Jakarta,Yogyakarta,438.967847019126,219483.923509563
+928,Train,PT KAI,Nganjuk,Economic,Nganjuk,Yogyakarta,178.75205838611703,143001.64670889362
+929,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Business,Cilegon,Yogyakarta,523.5899966739782,340333.49783808587
+930,Bus,Hiba,nearest bus terminal,Suite,Boyolali,Yogyakarta,75.14059220340893,56355.444152556694
+931,Plane,PT Trigana Air Service,Bandar Udara Fatmawati Soekarno,Business,Jambi,Yogyakarta,1080.9267465522385,2107807.155776865
+932,Plane,Lion Air,Bandar Udara Bolaang (Bandar Udara Loloda Mokoagow),Business,Sulawesi Utara,Yogyakarta,1797.54188318467,3505206.672210107
+933,Plane,Sriwijaya Air,Bandar Udara H. Aroeppala,Economic,Sulawesi Tengah,Yogyakarta,1350.2021561312324,2025303.2341968487
+934,Plane,Garuda Indonesia,Bandar Udara Bali Baru,Business,Bali,Yogyakarta,521.9825957538203,1017866.0617199496
+935,Plane,NAM Air,Unknown Airport,Business,Gorontalo,Yogyakarta,1650.7274560911121,3218918.539377669
+936,Plane,Garuda Indonesia,Bandar Udara Adisucipto,Economic,DKI Jakarta,Yogyakarta,438.967847019126,658451.770528689
+937,Bus,Nusantara,nearest bus terminal,Business,Jember,Yogyakarta,368.1953643126563,239326.98680322658
+938,Plane,NAM Air,Bandar Udara H.A.S. Hanandjoeddin d.h. Bandar Udara Buluh Tumbang,Economic,Sumatera Selatan,Yogyakarta,877.9380166727185,1316907.0250090777
+939,Plane,Garuda Indonesia,Bandar Udara Abdulrachman Saleh,Economic,Jawa Barat,Yogyakarta,324.18707186347507,486280.6077952126
+940,Train,PT KAI,Sroyo,Economic,Bojonegoro,Yogyakarta,179.96708290456277,143973.66632365022
+941,Bus,Budiman,nearest bus terminal,Economic,Tasikmalaya,Yogyakarta,260.81634883719096,130408.17441859547
+942,Bus,Haryanto,nearest bus terminal,Business,Lebak,Yogyakarta,484.56524675423674,314967.4103902539
+943,Bus,Nusantara,nearest bus terminal,Economic,Surabaya,Yogyakarta,273.8180533906966,136909.0266953483
+944,Plane,Garuda Indonesia,Unknown Airport,Economic,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,1099447.798338774
+945,Plane,NAM Air,Bandar Udara Iskandar,Business,Kalimantan Barat,Yogyakarta,871.3478269442726,1699128.2625413318
+946,Plane,Batik Air,Bandar Udara Iskandar,Business,Kalimantan Barat,Yogyakarta,871.3478269442726,1699128.2625413318
+947,Train,PT KAI,Cipeuyeum,Suite,Cianjur,Yogyakarta,378.0621762662139,453674.6115194566
+948,Plane,PT Trigana Air Service,Bandar Udara Abdulrachman Saleh,Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+949,Train,PT KAI,Cimahi,Business,Cimahi,Yogyakarta,334.9202108675686,348317.01930227136
+950,Bus,Lorena,nearest bus terminal,Suite,Bogor,Yogyakarta,422.78231889794927,317086.7391734619
+951,Plane,Lion Air,Bandar Udara Bireuen,Business,Aceh,Yogyakarta,2014.7223682251845,3928708.61803911
+952,Train,PT KAI,Brebes,Business,Brebes,Yogyakarta,192.6946821360098,200402.4694214502
+953,Train,PT KAI,Maseng,Business,Bogor,Yogyakarta,422.78231889794927,439693.6116538673
+954,Plane,NAM Air,Bandar Udara Bali Baru,Business,Nusa Tenggara Timur,Yogyakarta,1139.9341013280716,2222871.49758974
+955,Bus,Lorena,nearest bus terminal,Suite,Kepulauan Riau,Yogyakarta,1077.3258575676762,807994.393175757
+956,Bus,Rosalia Indah,nearest bus terminal,Business,Jayapura,Yogyakarta,3414.685867411479,2219545.8138174615
+957,Bus,Hiba,nearest bus terminal,Business,Tegal,Yogyakarta,170.24107027498275,110656.69567873879
+958,Train,PT KAI,Rambipuji,Suite,Jember,Yogyakarta,368.1953643126563,441834.4371751876
+959,Train,PT KAI,Baron,Economic,Nganjuk,Yogyakarta,178.75205838611703,143001.64670889362
+960,Train,PT KAI,Cisauk,Suite,Tangerang,Yogyakarta,457.6054446069322,549126.5335283186
+961,Train,PT KAI,Barat,Economic,Magetan,Yogyakarta,112.68790797419841,90150.32637935872
+962,Bus,Dewi Sri,nearest bus terminal,Suite,Kepulauan Bangka Belitung,Yogyakarta,732.9651988925159,549723.8991693868
+963,Plane,Garuda Indonesia,Bandar Udara Enggano,Suite,Jambi,Yogyakarta,1080.9267465522385,2432085.1797425365
+964,Train,PT KAI,Lubuk Buaya,Business,Padang,Yogyakarta,1356.2769455231717,1410528.0233440986
+965,Train,PT KAI,Garum,Economic,Blitar,Yogyakarta,198.62929149028835,158903.43319223067
+966,Bus,Budiman,nearest bus terminal,Business,Magetan,Yogyakarta,112.68790797419841,73247.14018322897
+967,Plane,Citilink,Bandar Udara Internasional APT Pranoto (Bandar Udara Samarinda Baru),Economic,Kalimantan Utara,Yogyakarta,1378.4708290615852,2067706.2435923778
+968,Plane,Citilink,Bandar Udara Ngloram (Bandar Udara Blora),Suite,Jawa Barat,Yogyakarta,324.18707186347507,729420.9116928189
+969,Bus,SAN (Siliwangi Antar Nusa),nearest bus terminal,Suite,Nusa Tenggara Barat,Yogyakarta,751.9764194127964,563982.3145595973
+970,Bus,Mayasari,nearest bus terminal,Economic,Sidoarjo,Yogyakarta,259.52981703864833,129764.90851932416
+971,Plane,Lion Air,Unknown Airport,Business,Banten,Yogyakarta,496.92179636711603,968997.5029158763
+972,Train,PT KAI,Parung Kuda,Business,Sukabumi,Yogyakarta,413.1162545173275,429640.9046980206
+973,Plane,Batik Air,Bandar Udara Benjina,Business,Maluku,Yogyakarta,1987.6613976835763,3875939.725482974
+974,Bus,Lorena,nearest bus terminal,Business,Magetan,Yogyakarta,112.68790797419841,73247.14018322897
+975,Train,PT KAI,Cilejit,Suite,Bogor,Yogyakarta,422.78231889794927,507338.78267753916
+976,Train,PT KAI,Solo Balapan,Suite,Surakarta,Yogyakarta,68.04500135455822,81654.00162546987
+977,Bus,Lorena,nearest bus terminal,Suite,Magetan,Yogyakarta,112.68790797419841,84515.93098064882
+978,Bus,Lorena,nearest bus terminal,Suite,Lampung,Yogyakarta,684.1841734461109,513138.1300845832
+979,Bus,Nusantara,nearest bus terminal,Suite,Bandung,Yogyakarta,325.89770797152363,244423.28097864272
+980,Plane,Citilink,Unknown Airport,Business,Banten,Yogyakarta,496.92179636711603,968997.5029158763
+981,Plane,Batik Air,Bandar Udara Ngloram (Bandar Udara Blora),Business,Jawa Timur,Yogyakarta,236.30849522541612,460801.5656895614
+982,Train,PT KAI,Meluwung,Business,Banjar,Yogyakarta,732.5899586046614,761893.5569488478
+983,Bus,Nusantara,nearest bus terminal,Business,Sulawesi Tengah,Yogyakarta,1350.2021561312324,877631.4014853011
+984,Train,PT KAI,Duduk,Suite,Gresik,Yogyakarta,350.08148965766696,420097.78758920036
+985,Train,PT KAI,Krian,Suite,Sidoarjo,Yogyakarta,259.52981703864833,311435.780446378
+986,Train,PT KAI,Doplang,Suite,Blora,Yogyakarta,160.53000515612763,192636.00618735317
+987,Train,PT KAI,Brumbung,Economic,Demak,Yogyakarta,120.35665720273047,96285.32576218438
+988,Bus,Lorena,nearest bus terminal,Business,Sumatera Barat,Yogyakarta,1356.2848088436576,881585.1257483775
+989,Train,PT KAI,Maswati,Business,Bandung Barat,Yogyakarta,347.3558014760002,361250.0335350402
+990,Bus,Mayasari,nearest bus terminal,Suite,Tuban,Yogyakarta,222.337926911915,166753.44518393624
+991,Bus,Sinar Jaya,nearest bus terminal,Business,Jambi,Yogyakarta,1080.9267465522385,702602.3852589551
+992,Plane,Lion Air,Bandar Udara Abdulrachman Saleh,Business,Jawa Tengah,Yogyakarta,84.66775283966177,165102.11803734046
+993,Bus,Lorena,nearest bus terminal,Suite,Lebak,Yogyakarta,484.56524675423674,363423.93506567756
+994,Plane,PT Trigana Air Service,Bandar Udara Internasional Hang Nadim,Economic,Sumatera Selatan,Yogyakarta,877.9380166727185,1316907.0250090777
+995,Bus,Sinar Jaya,nearest bus terminal,Economic,Demak,Yogyakarta,120.35665720273047,60178.32860136524
+996,Bus,Nusantara,nearest bus terminal,Economic,Palembang,Yogyakarta,831.0533620962693,415526.6810481347
+997,Bus,Budiman,nearest bus terminal,Suite,Sulawesi Tengah,Yogyakarta,1350.2021561312324,1012651.6170984244
+998,Plane,PT Trigana Air Service,Bandar Udara Bali Baru,Business,Bali,Yogyakarta,521.9825957538203,1017866.0617199496
+999,Plane,NAM Air,Bandar Udara Datah Dawai,Suite,Kalimantan Selatan,Yogyakarta,786.7319481865729,1770146.8834197891
+1000,Train,PT KAI,Lebak Jero,Suite,Bandung,Yogyakarta,325.89770797152363,391077.24956582836

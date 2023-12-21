@@ -12,22 +12,25 @@ router.get('/list-my-plan', async (req, res) => {
   res.send(result)
 })
 
-router.post('/store-new-plan', async (req, res) => {
-  const plan = req.body
-  const csv = await toCSV.json2csv(plan)
-  let id = uuid.generate()
-  // await prisma.$executeRaw`INSERT INTO pesananku_temp (id, kota_asal, kota_tujuan, tanggal_berangkat, tanggal_pulang, dana, tema) VALUES (${id}, ${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
-
-  console.log(csv)
-  res.send(csv)
+router.get('/list-my-plan/:id', async (req, res, next) => {
+  try {
+    const id = req.params.id;
+    const datas = await prisma.$queryRaw`SELECT * FROM pesananku WHERE id = ${id}`
+    if (!datas) {
+      const err = new Error('data ga ada');
+      return next(err)
+    }
+    res.send(datas)
+  } catch (err) {
+    next(err)
+  }
 })
 
-router.post('/plan-it', async (req, res) => {
-  const plan = req.body
-  let id = uuid.generate()
-  await prisma.$executeRaw`INSERT INTO pesananku_temp (id, kota_asal, kota_tujuan, tanggal_berangkat, tanggal_pulang, dana, tema) VALUES (${id}, ${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
-  console.log(plan)
-  res.send(plan)
+router.delete('/list-my-plan/:id', async (req, res) => {
+    const id = req.params.id
+    await prisma.$executeRaw`DELETE FROM users WHERE kode_pengguna = ${id};`
+
+    res.status(201).send("Data berhasil dihapus!")
 })
 
 module.exports = router

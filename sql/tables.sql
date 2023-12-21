@@ -1,80 +1,73 @@
 -- CREATE DATABASE plan_and_go;
 
-CREATE TABLE public."tiket_ka" (
-	id VARCHAR(255) PRIMARY KEY,
-	nama_kereta VARCHAR(100) NOT NULL,
-	stasiun_keberangkatan VARCHAR(100) NOT NULL,
-	stasiun_kedatangan VARCHAR(100) NOT NULL,
-	nomor_kereta VARCHAR(3) NOT NULL,
+CREATE TABLE public."tiket_transportasi" (
+	id VARCHAR(5) PRIMARY KEY,
+	jenis_transportasi VARCHAR(50) NOT NULL,
+	nama_transportasi VARCHAR(100) NOT NULL,
+	titik_keberangkatan VARCHAR(100) NOT NULL,
 	kelas VARCHAR(50) NOT NULL,
-	sub_class VARCHAR(5),
-	tanggal_berangkat TIMESTAMP,
-	tanggal_tiba TIMESTAMP,
-	harga INTEGER  CHECK(harga >= 0)
-);
-
-CREATE TABLE public."tiket_pesawat" (
-	id VARCHAR(255) PRIMARY KEY,
-	nama_maskapai VARCHAR(100) ,
-	bandara_keberangkatan VARCHAR(100) NOT NULL,
-	bandara_kedatangan VARCHAR(100) NOT NULL,
-	kode_maskapai VARCHAR(3),
-	nomor_maskapai VARCHAR(3),
-	kelas VARCHAR(50) NOT NULL,
-	tanggal_berangkat TIMESTAMP,
-	tanggal_tiba TIMESTAMP,
-	harga INTEGER  CHECK(harga >= 0)
+	titik_kedatangan VARCHAR(100) NOT NULL,
+	kota_tiba VARCHAR(100) NOT NULL,
+	jarak VARCHAR(30),
+	harga VARCHAR(50)
 );
 
 CREATE TABLE public."hotel" (
-	id VARCHAR(255) PRIMARY KEY,
-	nama_hotel VARCHAR(100) NOT NULL,
-	lokasi_hotel VARCHAR(100) NOT NULL,
-	jenis_kamar VARCHAR(100) NOT NULL,
-	tanggal_check_in TIMESTAMP NOT NULL,
-	tanggal_check_out TIMESTAMP NOT NULL,
-	harga INTEGER  CHECK(harga >= 0) NOT NULL
+	nama_hotel VARCHAR(150) NOT NULL,
+	rating VARCHAR(10),
+	bintang VARCHAR(100),
+	harga VARCHAR(50) NOT NULL,
+	alamat TEXT,
+	gambar TEXT,
+	jenis_harga VARCHAR(30),
+	id VARCHAR(10) PRIMARY KEY
 );
 
 CREATE TABLE public."tiket_wisata" (
-	id VARCHAR(255) PRIMARY KEY,
+	id VARCHAR(10) PRIMARY KEY,
 	nama_wisata VARCHAR(100) NOT NULL,
+	deskripsi TEXT NOT NULL,
+	kategori VARCHAR(100) NOT NULL,
 	lokasi_wisata VARCHAR(100) NOT NULL,
-	harga INTEGER  CHECK(harga >= 0)
+	harga VARCHAR(50),
+	rating VARCHAR(10), 
+	koordinat TEXT,
+	lat VARCHAR(30),
+	long VARCHAR(30),
+	gambar VARCHAR(255)
 );
 
+	
 CREATE TABLE public."pesananku" (
-	id VARCHAR(255) PRIMARY KEY,
-	tiket_ka_keberangkatan INTEGER ,
-	tiket_ka_kedatangan INTEGER ,
-	tiket_pesawat_berangkat INTEGER ,
-	tiket_pesawat_pulang INTEGER ,
+	id VARCHAR(10) PRIMARY KEY,
+	tiket_keberangkatan VARCHAR(5) ,
+	tiket_kedatangan VARCHAR(5),
+	hotel VARCHAR(10),
 	kota_asal VARCHAR(100)NOT NULL,
 	kota_tujuan VARCHAR(100)NOT NULL,
 	tanggal_berangkat DATE NOT NULL,
 	tanggal_pulang DATE NOT NULL,
-	dana INTEGER NOT NULL,
+	dana INTEGER CHECK ( dana >= 0 ) NOT NULL,
 	tema VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE public."pesananku_temp" (
-	id VARCHAR(255) PRIMARY KEY,
-	tiket_ka_keberangkatan INTEGER ,
-	tiket_ka_kedatangan INTEGER ,
-	tiket_pesawat_berangkat INTEGER ,
-	tiket_pesawat_pulang INTEGER ,
-	kota_asal VARCHAR(100) NOT NULL,
+	id VARCHAR(10) PRIMARY KEY,
+	tiket_keberangkatan VARCHAR(5) ,
+	tiket_kedatangan VARCHAR(5),
+	hotel VARCHAR(10),
+	kota_asal VARCHAR(100)NOT NULL,
 	kota_tujuan VARCHAR(100)NOT NULL,
 	tanggal_berangkat DATE NOT NULL,
 	tanggal_pulang DATE NOT NULL,
-	dana INTEGER NOT NULL,
+	dana INTEGER CHECK ( dana >= 0 ) NOT NULL,
 	tema VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE pesanan_wisata (
-	id VARCHAR(255) PRIMARY KEY,
-	tiket_wisata VARCHAR(255),
-	pesananku VARCHAR(255),
+CREATE TABLE public."pesanan_wisata" (
+	id VARCHAR(10) PRIMARY KEY,
+	tiket_wisata VARCHAR(10),
+	pesananku VARCHAR(10),
 	CONSTRAINT fk_wisata_pesanan FOREIGN KEY (tiket_wisata) REFERENCES tiket_wisata(id),
 	CONSTRAINT fk_pesanan_wisata FOREIGN KEY (pesananku) REFERENCES pesananku(id)
 );
