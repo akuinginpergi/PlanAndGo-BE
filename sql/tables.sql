@@ -51,6 +51,19 @@ CREATE TABLE public."pesananku" (
 	tema VARCHAR(100) NOT NULL
 );
 
+CREATE TABLE public."pesananku" (
+	id VARCHAR(10) PRIMARY KEY,
+	tiket_keberangkatan VARCHAR(5) ,
+	tiket_kedatangan VARCHAR(5),
+	hotel VARCHAR(10),
+	kota_asal VARCHAR(100)NOT NULL,
+	kota_tujuan VARCHAR(100)NOT NULL,
+	tanggal_berangkat DATE NOT NULL,
+	tanggal_pulang DATE NOT NULL,
+	dana INTEGER CHECK ( dana >= 0 ) NOT NULL,
+	tema VARCHAR(100) NOT NULL
+);
+
 CREATE TABLE public."pesanan_wisata" (
 	id VARCHAR(10) PRIMARY KEY,
 	tiket_wisata VARCHAR(10),
