@@ -1,5 +1,6 @@
 const express = require('express')
 const { PrismaClient } = require('@prisma/client')
+const  uuid = require('short-uuid')
 const prisma = new PrismaClient()
 const router = express.Router()
 
@@ -85,3 +86,12 @@ router.get('/choose-return', async (req, res) => {
   process.exit(1)
 })
 module.exports = router
+
+router.post('/save-temp', async (req, res) => {
+  await prisma.$connect()
+  const plan = req.body
+  const id = uuid.generate()
+  await prisma.$executeRaw`INSERT INTO pesananku_temp VALUES (${id}, ${plan.tiket_berangkat}, ${plan.tiket_pulang}, ${plan.hotel},${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
+
+  res.sendStatus(200)
+})
