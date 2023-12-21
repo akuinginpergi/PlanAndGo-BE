@@ -51,7 +51,7 @@ CREATE TABLE public."pesananku" (
 	tema VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE public."pesananku" (
+CREATE TABLE public."pesananku_temp" (
 	id VARCHAR(10) PRIMARY KEY,
 	tiket_keberangkatan VARCHAR(5) ,
 	tiket_kedatangan VARCHAR(5),
