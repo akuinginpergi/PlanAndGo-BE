@@ -10,7 +10,7 @@ const prisma = new PrismaClient({
 const router = express.Router();
 
 router.get('/list-my-plan', async (req, res) => {
-  const data = await prisma.$queryRaw`SELECT * FROM pesananku`
+  const data = await prisma.$queryRaw`SELECT * FROM pesananku `
   if (data != []) {
     res.status(200).json({
       error: false,
@@ -27,7 +27,7 @@ router.get('/list-my-plan', async (req, res) => {
 
 router.get('/list-my-plan/:id', async (req, res) => {
   const id = req.params.id;
-  const data = await prisma.$queryRaw`SELECT * FROM pesananku WHERE id = ${id}`
+  const data = await prisma.$queryRaw`SELECT * FROM pesananku JOIN pesanan_wisata ON pesananku.id = pesanan_wisata.pesananku WHERE pesananku.id = ${id}`
   if (data != []) {
     res.status(200).json({
       error: false,

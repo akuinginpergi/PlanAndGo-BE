@@ -80,13 +80,20 @@ router.post('/save-temp', async (req, res) => {
   const plan = req.body
   const id = uuid.generate()
   await prisma.$executeRaw`INSERT INTO pesananku_temp VALUES (${id}, ${plan.tiket_berangkat}, ${plan.tiket_pulang}, ${plan.hotel},${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
+  plan.tiket_wisata.map(async (val)=>{
+    await prisma.$executeRaw`INSERT INTO pesanan_wisata_temp VALUES (${uuid.generate()}, ${val}, ${id})`
+  })
 
-  res.sendStatus(200)
+  res.status(200).json({
+    error: false,
+    message: "Success!",
+    data: id
+  })
 })
 
 router.get('/plan-temp/:id', async (req, res) => {
   const id = req.params.id;
-  const data = await prisma.$queryRaw`SELECT * FROM pesananku_temp WHERE id = ${id}`
+  const data = await prisma.$queryRaw`SELECT * FROM pesananku_temp JOIN pesanan_wisata_temp ON pesananku_temp.id = pesanan_wisata_temp.pesananku WHERE pesananku_temp.id = ${id}`
   if (data != []) {
     res.status(200).json({
       error: false,
@@ -106,7 +113,15 @@ router.post('/save-plan/:id', async (req, res) => {
   const id = req.params.id
   await prisma.$executeRaw`INSERT INTO pesananku VALUES (${id}, ${plan.tiket_berangkat}, ${plan.tiket_pulang}, ${plan.hotel},${plan.kota_asal}, ${plan.kota_tujuan}, to_date(${plan.tgl_berangkat}, 'YYYY/MM/DD'), to_date(${plan.tgl_pulang}, 'YYYY/MM/DD'), ${parseInt(plan.dana)}, ${plan.tema})`
   await prisma.$executeRaw`DELETE FROM pesananku_temp WHERE id = ${id}`
-  res.sendStatus(200)
+  await prisma.$executeRaw`DELETE FROM pesanan_wisata_temp WHERE pesananku = ${id}`
+  plan.tiket_wisata.map(async (val)=>{
+    await prisma.$executeRaw`INSERT INTO pesanan_wisata VALUES (${uuid.generate()}, ${val}, ${id})`
+  })
+  res.status(200).json({
+    error: false,
+    message: "Success!",
+    data: id
+  })
 })
 
 module.exports = router

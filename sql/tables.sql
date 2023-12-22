@@ -67,7 +67,7 @@ CREATE TABLE public."pesananku_temp" (
 CREATE TABLE public."pesanan_wisata" (
 	id VARCHAR(255) PRIMARY KEY,
 	tiket_wisata VARCHAR(255),
-	pesananku VARCHAR(10),
+	pesananku VARCHAR(255),
 	CONSTRAINT fk_wisata_pesanan FOREIGN KEY (tiket_wisata) REFERENCES tiket_wisata(id),
 	CONSTRAINT fk_pesanan_wisata FOREIGN KEY (pesananku) REFERENCES pesananku(id)
 );
